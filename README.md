@@ -8,4 +8,3 @@ Is an testing TP that would change some UI, and the goal of this project is conv
 
 The UI design was originally made by Julie "Danger" Kennedy from 4J Studios! I simply recreate the UI port for Bedrock Edition ;D.
 
-Thread: http://www.mcbedrock.com/showthread.php?654-Vanilla-Deluxe-Project-4JD-UI
