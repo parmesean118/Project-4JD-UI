@@ -22,9 +22,8 @@ If you have more questions about this, let me know by MD on my twitter @CrisXolt
 
 Note: The only prerequisite before testing is that you make sure you have a Windows 10 PC. Otherwise, the bug report will be completely ignored (So, don't do it if you have mobile device).
 
-At the moment, only the following can be done:
+At the moment, you can:
 - Test and report bugs.
-- 
 
 You can't:
 - Redistribute the master (current) version to other pages.
