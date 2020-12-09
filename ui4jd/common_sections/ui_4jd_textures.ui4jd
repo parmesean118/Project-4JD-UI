@@ -1,0 +1,97 @@
+{
+  "namespace": "ui_4jd_textures",
+
+  "durability_bindings": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "bindings": [
+      {
+        "ignored": "$is_grabbed",
+        "binding_name": "$total_amount",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      },
+      {
+        "ignored": "$is_grabbed",
+        "binding_name": "$current_amount",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      },
+      {
+        "ignored": "(not $is_grabbed)",
+        "binding_name": "$total_amount"
+      },
+      {
+        "ignored": "(not $is_grabbed)",
+        "binding_name": "$current_amount"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((($current_amount / $total_amount) > $min_amount) and (($current_amount / $total_amount) < $max_amount) or (($current_amount / $total_amount) = $min_amount))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "durability_bar_00@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_00" },
+  "durability_bar_01@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_01" },
+  "durability_bar_02@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_02" },
+  "durability_bar_03@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_03" },
+  "durability_bar_04@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_04" },
+  "durability_bar_05@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_05" },
+  "durability_bar_06@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_06" },
+  "durability_bar_07@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_07" },
+  "durability_bar_08@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_08" },
+  "durability_bar_09@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_09" },
+  "durability_bar_10@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_10" },
+  "durability_bar_11@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_11" },
+  "durability_bar_12@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_12" },
+  "durability_bar_13@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_13" },
+
+  "dialog_bg_opaque_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/dialog_bg_opaque_1.5"
+  },
+
+  "text_panel": {
+    "type": "image",
+    "texture": "textures/ui4jd/text_panel"
+  },
+
+  "highlight_slot": {
+    "type": "image",
+    "size": [ "100%-2px", "100%-2px" ],
+    "texture": "textures/ui4jd/highlight_slot"
+  },
+
+  "text_input": {
+    "type": "image",
+    "size": [ "100%+2px", "100%+2px" ],
+    "texture": "textures/ui4jd/text_input"
+  },
+
+  "text_input_hover": {
+    "type": "image",
+    "size": [ "100%+2px", "100%+2px" ],
+    "texture": "textures/ui4jd/text_input_hover"
+  },
+
+  "cell_image_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_image_1.5"
+  },
+
+  "panel_content_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/panel_content_1.5"
+  },
+
+  "confirm": {
+    "type": "image",
+    "size": [ 14, 14 ],
+    "texture": "textures/ui4jd/confirm"
+  }
+}

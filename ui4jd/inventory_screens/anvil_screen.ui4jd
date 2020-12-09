@@ -1,0 +1,198 @@
+{
+  "namespace": "anvil_4jd",
+
+  "recipe_grid": {
+    "type": "grid",
+    "size": [ 30, 30 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [ 1, 1 ],
+    "$background_images": "ui_4jd_textures.cell_image_1_5",
+    "$highlight_control": "common_4jd.highlight_slot_panel",
+    "$container_item_size": [ 30, 30 ],
+    "$cell_image_size": [ 30, 30 ],
+    "$item_renderer_panel_size": [ 30, 30 ],
+    "$item_renderer_size": [ 27, 27 ],
+    "$stack_count_control": "common_4jd.stack_count_label_27"
+  },
+
+  "recipe_grid_input@anvil_4jd.recipe_grid": {
+    "offset": [ 13.5, 55 ],
+    "controls": [
+      {
+        "input_item_slot@anvil.anvil_item_slot": {
+          "grid_position": [ 0, 0 ],
+          "$item_collection_name": "anvil_input_items",
+          "$focus_id_binding_type": "none",
+          "$focus_id": "anvil_input",
+          "$focus_override_right_binding_type": "none",
+          "$focus_override_right": "anvil_material"
+        }
+      }
+    ]
+  },
+
+  "recipe_grid_material@anvil_4jd.recipe_grid": {
+    "offset": [ 82.5, 55 ],
+    "controls": [
+      {
+        "material_item_slot@anvil.anvil_item_slot": {
+          "grid_position": [ 0, 0 ],
+          "$item_collection_name": "anvil_material_items",
+          "$focus_id_binding_type": "none",
+          "$focus_id": "anvil_material",
+          "$focus_override_left_binding_type": "none",
+          "$focus_override_left": "anvil_input",
+          "$focus_override_right_binding_type": "none",
+          "$focus_override_right": "anvil_result"
+        }
+      }
+    ]
+  },
+
+  "recipe_grid_result@anvil_4jd.recipe_grid": {
+    "offset": [ 165.5, 55 ],
+    "controls": [
+      {
+        "result_item_slot@anvil.anvil_item_slot": {
+          "grid_position": [ 0, 0 ],
+          "$item_collection_name": "anvil_result_items",
+          "$button_ref": "anvil.anvil_output_slot_button",
+          "$focus_id_binding_type": "none",
+          "$focus_id": "anvil_result",
+          "$focus_override_left_binding_type": "none",
+          "$focus_override_left": "anvil_material"
+        }
+      }
+    ]
+  },
+
+  "cost_label@anvil.cost_label": {
+    "shadow": true,
+    "offset": [ -13, 90.5 ],
+    "layer": 3,
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "controls": [
+      {
+        "text_bg": {
+          "type": "image",
+          "size": [ "100% + 5px", 12 ],
+          "offset": [ -0.5, 0 ],
+          "texture": "textures/ui4jd/base_color",
+          "layer": -1,
+          "color": [ 0, 0, 0 ],
+          "alpha": 0.5
+        }
+      }
+    ]
+  },
+
+  "anvil_panel@common_4jd.root_panel": {
+    "size": [ 207.5, 215 ],
+    "controls": [
+      { 
+        "anvil_icon@anvil.anvil_icon": {
+          "layer": 2,
+          "size": [ 37.5, 37.5 ],
+          "offset": [ 13.5, 9.5 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      },
+      { 
+        "text_edit_control@anvil.text_edit_control": {
+          "layer": 2,
+          "size": [ 120, 18 ],
+          "offset": [ 72.5, 26 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$text_background_default": "ui_4jd_textures.text_input",
+          "$text_background_hover": "ui_4jd_textures.text_input_hover"
+        }
+      },
+      {
+        "title_panel@anvil.title_label": {
+          "layer": 2,
+          "offset": [ 73.5, 10.5 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      },
+      { 
+        "plus_sign_icon@anvil.plus_sign_icon": {
+          "layer": 2,
+          "size": [ 19.5, 19.5 ],
+          "offset": [ 53, 60 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      },
+      { 
+        "arrow_icon@anvil.arrow_icon": {
+          "layer": 2,
+          "size": [ 33, 22.5 ],
+          "offset": [ 122, 59.5 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      },
+      {
+        "cross_out_icon@anvil.cross_out_icon": {
+          "layer": 3,
+          "size": [ 22.5, 22.5 ],
+          "offset": [ 126.5, 59.5 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      },
+      {
+        "cost_label_fail@anvil_4jd.cost_label": {
+          "color": "$anvil_cost_fail_text_color",
+          "bindings": [
+            {
+              "binding_name": "#cost_text",
+              "binding_name_override": "#text"
+            },
+            {
+              "binding_name": "#cost_text_red",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "cost_label_sucess@anvil_4jd.cost_label": {
+          "color": "$anvil_cost_success_text_color",
+          "bindings": [
+            {
+              "binding_name": "#cost_text",
+              "binding_name_override": "#text"
+            },
+            {
+              "binding_name": "#cost_text_green",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      { "recipe_grid_input@anvil_4jd.recipe_grid_input": { } },
+      { "recipe_grid_material@anvil_4jd.recipe_grid_material": { } },
+      { "recipe_grid_result@anvil_4jd.recipe_grid_result": { } },
+      { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } },
+      {
+        "inventory_panel_bottom_half@common_4jd.inventory_panel_bottom_half": {
+          "layer": 2
+        }
+      }
+    ]
+  },
+
+  "anvil_screen_content@common_4jd.center_screen": {
+    "controls": [
+      { "anvil_panel@anvil_4jd.anvil_panel": { } },
+      { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
+      { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+    ]
+  }
+}

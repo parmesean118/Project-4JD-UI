@@ -1,0 +1,10 @@
+{
+  "ui_defs": [
+    /* Common Sections */
+    "ui4jd/common_sections/ui_common.ui4jd",
+    "ui4jd/common_sections/ui_4jd_textures.ui4jd",
+    /* Inventory Screens */
+    "ui4jd/inventory_screens/anvil_screen.ui4jd",
+    "ui4jd/inventory_screens/beacon_screen.ui4jd"
+  ]
+}

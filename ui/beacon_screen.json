@@ -1,0 +1,17 @@
+//File modified by @CrizArtEX.
+//(c) Don't use any code design without permission!
+{
+  "beacon_screen@common.inventory_screen_common": {
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "common_4jd.full_screen",
+        "$screen_bg_content": "beacon_4jd.beacon_screen_content"
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "beacon_pocket.beacon_panel"
+      }
+    ]
+  }
+}

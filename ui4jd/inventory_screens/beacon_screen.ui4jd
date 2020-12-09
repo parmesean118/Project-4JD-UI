@@ -1,0 +1,335 @@
+{
+  "namespace": "beacon_4jd",
+
+  "effect_hover_text_label@common_4jd.hover_text_label": {
+    "text": "#button_hover",
+    "bindings": [
+      {
+        "binding_name": "#button_hover",
+        "binding_type": "collection",
+        "binding_collection_name": "$button_name"
+      }
+    ]
+  },
+
+  "beacon_hover_text_panels": {
+    "type": "panel",
+    "$is_effect_buttons|default": false,
+    "controls": [
+      {
+        "effect_hover_text@common_4jd.hover_text_panel": {
+          "$hover_text_label_control": "beacon_4jd.effect_hover_text_label",
+          "ignored": "(not $is_effect_buttons)",
+          "bindings": [
+            {
+              "binding_name": "(not (#button_hover = ''))",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "$button_name"
+            }
+          ]
+        }
+      },
+      { "hover_text_panel@common_4jd.hover_text_panel": { "ignored": "$is_effect_buttons" } }
+    ]
+  },
+
+  "button_unchecked_hover@beacon.image_atlas": {
+    "size": [ 22, 22 ],
+    "texture": "textures/ui/beacon_button_hover",
+    "controls": [
+      { "beacon_hover_text_panels@beacon_4jd.beacon_hover_text_panels": { } }
+    ]
+  },
+
+  "button_checked_hover@beacon.image_atlas": {
+    "size": [ 22, 22 ],
+    "texture": "textures/ui/beacon_button_pressed",
+    "controls": [
+      { "beacon_hover_text_panels@beacon_4jd.beacon_hover_text_panels": { } }
+    ]
+  },
+  
+  "toggle_button@beacon.toggle_button": {
+    "size": [ 22, 22 ],
+    "$unchecked_hover_control": "beacon_4jd.button_unchecked_hover",
+    "$checked_hover_control": "beacon_4jd.button_checked_hover"
+  },
+
+  "button_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ 22, 22 ],
+    "layer": 5,
+    "controls": [
+      { "toggle_button@beacon_4jd.toggle_button": { "layer": 4 } },
+      { "image_control@$image_control": { "layer": 4 } }
+    ],
+    "bindings": [
+      {
+        "binding_type": "collection",
+        "binding_name": "#active",
+        "binding_collection_name": "$button_name",
+        "binding_name_override": "#enabled"
+      }
+    ]
+  },
+
+  "beacon_inner_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ 239, 115 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 10.5, 9 ],
+    "$is_effect_buttons": true,
+    "controls": [
+      {
+        "recessed_content_left@ui_4jd_textures.panel_content_1_5": {
+          "layer": 2,
+          "size": [ 119.5, "100%" ],
+          "$image_control": "beacon.image_template",
+          "controls": [
+            /*//// Label ////*/
+            {
+              "primary_power_label@beacon.beacon_label": {
+                "layer": 4,
+                "shadow": false,
+                "color": "$title_text_color",
+                "text": "tile.beacon.primary",
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "offset": [ 0, 3.5 ]
+              }
+            },
+            /*//// Pyramids ////*/
+            {
+              "level1@beacon.pyramid_image": {
+                "layer": 4,
+                "anchor_to": "top_left",
+                "anchor_from": "top_left",
+                "texture": "textures/ui/pyramid_level_1",
+                "offset": [ 21.5, 23 ]
+              }
+            },
+            {
+              "level2@beacon.pyramid_image": {
+                "layer": 4,
+                "anchor_to": "top_left",
+                "anchor_from": "top_left",
+                "texture": "textures/ui/pyramid_level_2",
+                "offset": [ 21.5, 53.5 ]
+              }
+            },
+            {
+              "level3@beacon.pyramid_image": {
+                "layer": 4,
+                "anchor_to": "top_left",
+                "anchor_from": "top_left",
+                "texture": "textures/ui/pyramid_level_3",
+                "offset": [ 21.5, 81 ]
+              }
+            },
+            /*//// Effects ////*/
+            {
+              "speed_panel@beacon_4jd.button_panel": {
+                "offset": [ 48.5, 23 ],
+                "$button_name": "speed",
+                "$image_texture": "textures/ui/speed_effect"
+              }
+            },
+            {
+              "haste_panel@beacon_4jd.button_panel": {
+                "offset": [ 75.5, 23 ],
+                "$button_name": "haste",
+                "$image_texture": "textures/ui/haste_effect"
+              }
+            },
+            {
+              "resist_panel@beacon_4jd.button_panel": {
+                "offset": [ 48.5, 53.5 ],
+                "$button_name": "resist",
+                "$image_texture": "textures/ui/resistance_effect"
+              }
+            },
+            {
+              "jump_panel@beacon_4jd.button_panel": {
+                "offset": [ 75.5, 53.5 ],
+                "$button_name": "jump",
+                "$image_texture": "textures/ui/jump_boost_effect"
+              }
+            },
+            {
+              "strength_panel@beacon_4jd.button_panel": {
+                "offset": [ 62, 81 ],
+                "$button_name": "strength",
+                "$image_texture": "textures/ui/strength_effect"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "panel_content_right@ui_4jd_textures.panel_content_1_5": {
+          "layer": 2,
+          "size": [ "fill", "100%" ],
+          "controls": [
+            /*//// Label ////*/
+            {
+              "secondary_power_label@beacon.beacon_label": {
+                "layer": 4,
+                "shadow": false,
+                "color": "$title_text_color",
+                "text": "tile.beacon.secondary",
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "offset": [ 0, 3.5 ]
+              }
+            },
+            /*//// Pyramid ////*/
+            {
+              "level4@beacon.pyramid_image": {
+                "layer": 4,
+                "anchor_to": "top_left",
+                "anchor_from": "top_left",
+                "texture": "textures/ui/pyramid_level_4",
+                "offset": [ 50, 26.5 ]
+              }
+            },
+            /*//// Effects ////*/
+            {
+              "regen_panel@beacon_4jd.button_panel": {
+                "offset": [ 35.5, 52.5 ],
+                "$button_name": "regen",
+                "$image_control": "beacon.image_template",
+                "$image_texture": "textures/ui/regeneration_effect"
+              }
+            },
+            {
+              "extra_panel@beacon_4jd.button_panel": {
+                "offset": [ 62, 52.5 ],
+                "$button_name": "extra",
+                "$image_control": "beacon.secondary_effect_images"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "usable_item_renderer_panel": {
+    "type": "panel",
+    "size": [ 21, 21 ],
+    "controls": [
+      {
+        "item_renderer": {
+          "type": "custom",
+          "renderer": "inventory_item_renderer",
+          "size": [ 19, 19 ],
+          "anchor_to": "center",
+          "anchor_from": "center",
+          "property_bag": {
+            "#item_id_aux": "$item_id_beacon"
+          }
+        }
+      }
+    ]
+  },
+
+  "usable_items_stack_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%c", 21 ],
+    "offset": [ -141, 128 ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "layer": 2,
+    "controls": [
+      {
+        "netherite@beacon_4jd.usable_item_renderer_panel": {
+          "$item_id_beacon": 38731776,
+          "bindings": [
+            {
+              "binding_name": "#supports_netherite",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "emerald@beacon_4jd.usable_item_renderer_panel": {
+          "$item_id_beacon": 32899072
+        }
+      },
+      {
+        "diamond@beacon_4jd.usable_item_renderer_panel": {
+          "$item_id_beacon": 19922944
+        }
+      },
+      {
+        "gold@beacon_4jd.usable_item_renderer_panel": {
+          "$item_id_beacon": 20054016
+        }
+      },
+      {
+        "iron@beacon_4jd.usable_item_renderer_panel": {
+          "$item_id_beacon": 19988480
+        }
+      }
+    ]
+  },
+
+  "beacon_panel@common_4jd.root_panel": {
+    "size": [ 260, 255.5 ],
+    "controls": [
+      { "beacon_inner_panel@beacon_4jd.beacon_inner_panel": { } },
+      {
+        "confirm_button@beacon_4jd.button_panel": {
+          "size": [ 22, 22 ],
+          "offset": [ -36, 127.5 ],
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "$button_name": "confirm",
+          "$hover_panel_text": "controller.buttonTip.confirmSearch",
+          "$image_control": "ui_4jd_textures.confirm"
+        }
+      },
+      { "usable_items_stack_pane@beacon_4jd.usable_items_stack_panel": { } },
+      {
+        "ingredient_item@common.container_item": {
+          "$highlight_control": "common_4jd.highlight_slot_panel",
+          "$container_item_size": [ 21, 21 ],
+          "$cell_image_size": [ 21, 21 ],
+          "$item_renderer_panel_size": [ 21, 21 ],
+          "$item_renderer_size": [ 19, 19 ],
+          "$stack_count_control": "common_4jd.stack_count_label_21",
+
+          "size": [ 21, 21 ],
+          "offset": [ -99, 128 ],
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "$item_collection_name": "beacon_payment_items"
+        }
+      },
+      { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } },
+      {
+        "inventory_panel_bottom_half@common_4jd.inventory_panel_bottom_half": {
+          "$button_ref_inventory": "beacon.inventory_slot_button",
+          "$button_ref_hotbar": "beacon.hotbar_slot_button",
+          "layer": 2,
+          "$with_label": false
+        }
+      }
+    ]
+  },
+
+  "beacon_screen_content@common_4jd.center_screen": {
+    "controls": [
+      { "beacon_panel@beacon_4jd.beacon_panel": { } },
+      { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
+      { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+    ]
+  }
+}

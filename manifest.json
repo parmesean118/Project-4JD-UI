@@ -3,14 +3,14 @@
   "header": {
     "description": "UI design ported by @CrisXolt. Original UI design by Julie \u0022Danger\u0022 Kennedy from 4J Studios.",
     "name": "VDX: Project 4JD UI",
-    "uuid": "c2873cf5-0319-42b3-96cf-05670c1d9a31",
+    "uuid": "46ecca32-2323-4db3-8174-cf0a87b8e173",
     "version": [0, 0, 1],
-    "min_engine_version": [1, 16, 0]
+    "min_engine_version": [1, 16, 100]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "c844a0c8-fcbd-45ad-aae3-cea8f08ef5b1",
+      "uuid": "1ff7322d-f04c-4f54-9574-e3b2a2738ad9",
       "version": [0, 0, 1]
     }
   ]

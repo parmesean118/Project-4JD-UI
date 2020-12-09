@@ -1,0 +1,5 @@
+Credits
+
+-Main project by: @CrisXolt
+-Panorama BG by: @agentms_ (AgentMindStorm)
+-Custom item durability bar explanation by @LukasPAH

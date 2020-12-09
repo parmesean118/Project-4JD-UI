@@ -1,0 +1,15 @@
+{
+  "anvil_screen": {
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "common_4jd.full_screen",
+        "$screen_bg_content": "anvil_4jd.anvil_screen_content"
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "anvil_pocket.anvil_panel"
+      }
+    ]
+  }
+}
