@@ -1,0 +1,179 @@
+{
+  "namespace": "creative_tools_4jd",
+
+  "tools_items_page_1@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  740 ], /* Compass        */
+    "$item_02": [ 0,  620 ], /* Leather Cap    */
+    "$item_03": [ 0,  626 ], /* Leather Tunic  */
+    "$item_04": [ 0,  632 ], /* Leather Pants  */
+    "$item_05": [ 0,  638 ], /* Leather Boots  */
+    "$item_06": [ 0,  644 ], /* Wooden Sword   */ "$size_24_item_06": true,
+    "$item_07": [ 0,  662 ], /* Wooden Shovel  */ "$size_24_item_07": true,
+    "$item_08": [ 0,  656 ], /* Wooden Pickaxe */ "$size_24_item_08": true,
+    "$item_09": [ 0,  650 ], /* Wooden Axe     */ "$size_24_item_09": true,
+    "$item_10": [ 0,  668 ], /* Wooden Hoe     */ "$size_24_item_10": true,
+
+    "$item_11": [ 0,  742 ], /* Empty Locator Map */
+    "$item_12": [ 0,  621 ], /* Chain Helmet      */
+    "$item_13": [ 0,  627 ], /* Chain Chestplate  */
+    "$item_14": [ 0,  633 ], /* Chain Leggings    */
+    "$item_15": [ 0,  639 ], /* Chain Boots       */
+    "$item_16": [ 0,  645 ], /* Stone Sword       */ "$size_24_item_16": true,
+    "$item_17": [ 0,  663 ], /* Stone Shovel      */ "$size_24_item_17": true,
+    "$item_18": [ 0,  657 ], /* Stone Pickaxe     */ "$size_24_item_18": true,
+    "$item_19": [ 0,  651 ], /* Stone Axe         */ "$size_24_item_19": true,
+    "$item_20": [ 0,  669 ], /* Stone Hoe         */ "$size_24_item_20": true,
+
+    "$item_21": [ 0,  674 ], /* Bow             */ "$size_24_item_21": true,
+    "$item_22": [ 0,  622 ], /* Iron Helmet     */
+    "$item_23": [ 0,  628 ], /* Iron Chestplate */
+    "$item_24": [ 0,  634 ], /* Iron Leggings   */
+    "$item_25": [ 0,  640 ], /* Iron Boots      */
+    "$item_26": [ 0,  646 ], /* Iron Sword      */ "$size_24_item_26": true,
+    "$item_27": [ 0,  664 ], /* Iron Shovel     */ "$size_24_item_27": true,
+    "$item_28": [ 0,  658 ], /* Iron Pickaxe    */ "$size_24_item_28": true,
+    "$item_29": [ 0,  652 ], /* Iron Axe        */ "$size_24_item_29": true,
+    "$item_30": [ 0,  670 ], /* Iron Hoe        */ "$size_24_item_30": true,
+
+    "$item_31": [ 0,  676 ], /* Arrow             */
+    "$item_32": [ 0,  623 ], /* Golden Helmet     */
+    "$item_33": [ 0,  629 ], /* Golden Chestplate */
+    "$item_34": [ 0,  635 ], /* Golden Leggings   */
+    "$item_35": [ 0,  641 ], /* Golden Boots      */
+    "$item_36": [ 0,  647 ], /* Golden Sword      */ "$size_24_item_36": true,
+    "$item_37": [ 0,  665 ], /* Golden Shovel     */ "$size_24_item_37": true,
+    "$item_38": [ 0,  659 ], /* Golden Pickaxe    */ "$size_24_item_38": true,
+    "$item_39": [ 0,  653 ], /* Golden Axe        */ "$size_24_item_39": true,
+    "$item_40": [ 0,  671 ], /* Golden Hoe        */ "$size_24_item_40": true,
+    
+    "$item_41": [ 0,  737 ], /* Flint and Steel    */
+    "$item_42": [ 0,  624 ], /* Diamond Helmet     */
+    "$item_43": [ 0,  630 ], /* Diamond Chestplate */
+    "$item_44": [ 0,  636 ], /* Diamond Leggings   */
+    "$item_45": [ 0,  642 ], /* Diamond Boots      */
+    "$item_46": [ 0,  648 ], /* Diamond Sword      */ "$size_24_item_46": true,
+    "$item_47": [ 0,  666 ], /* Diamond Shovel     */ "$size_24_item_47": true,
+    "$item_48": [ 0,  660 ], /* Diamond Pickaxe    */ "$size_24_item_48": true,
+    "$item_49": [ 0,  654 ], /* Diamond Axe        */ "$size_24_item_49": true,
+    "$item_50": [ 0,  672 ], /* Diamond Hoe        */ "$size_24_item_50": true
+  },
+
+  "tools_items_page_2@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  715 ], // Shield
+    "$item_02": [ 0, 1026 ], // Fire Charge
+    "$item_03": [ 0,  739 ], // Clock
+    "$item_04": [ 0,  736 ], // Shears
+    "$item_05": [ 0,  732 ], /* Fishing Rod              */ "$size_24_item_05": true,
+    "$item_06": [ 0,  733 ], /* Carrot on a Stick        */ "$size_24_item_06": true,
+    "$item_07": [ 0,  738 ], // Lead
+    "$item_08": [ 0,  751 ], // Totem of Undying
+    "$item_09": [ 0,  747 ], // Diamond Horse Armor
+    "$item_10": [ 0,  746 ], // Gold Horse Armor
+
+    "$item_11": [ 0,  745 ], // Iron Horse Armor
+    "$item_12": [ 0,  744 ], // Leather Horse Armor
+    "$item_13": [ 0,  947 ], // Armor Stand
+    "$item_14": [ 0,  749 ], // Turtle Shell
+    "$item_15": [ 0,  748 ], // Trident
+    "$item_16": [ 0,  675 ], /* Crossbow */ "$size_24_item_16": true,
+    "$item_17": [ 0,  677 ], // Arrow of Night Vision (Normal)
+    "$item_18": [ 0,  679 ], // Arrow of Invisibility (Normal)
+    "$item_19": [ 0,  681 ], // Arrow of Leaping (Normal)
+    "$item_20": [ 0,  684 ], // Arrow of Fire Resistance (Normal)
+
+    "$item_21": [ 0,  686 ], // Arrow of Swiftness (Normal)
+    "$item_22": [ 0,  689 ], // Arrow of Slowness (Normal)
+    "$item_23": [ 0,  691 ], // Arrow of Water Breathing (Normal)
+    "$item_24": [ 0,  693 ], // Arrow of Healing (Normal)
+    "$item_25": [ 0,  695 ], // Arrow of Harming (Normal)
+    "$item_26": [ 0,  697 ], // Arrow of Poison (Normal)
+    "$item_27": [ 0,  700 ], // Arrow of Regeneration (Normal)
+    "$item_28": [ 0,  703 ], // Arrow of Strength (Normal)
+    "$item_29": [ 0,  706 ], // Arrow of Weakness (Normal)
+    "$item_30": [ 0,  709 ], // Arrow of the Turtle Master (Normal)
+
+    "$item_31": [ 0,  712 ], // Arrow of Slow Falling (Normal)
+    "$item_32": [ 0,  678 ], // Arrow of Night Vision (Redstone)
+    "$item_33": [ 0,  680 ], // Arrow of Invisibility (Redstone)
+    "$item_34": [ 0,  682 ], // Arrow of Leaping (Redstone)
+    "$item_35": [ 0,  685 ], // Arrow of Fire Resistance (Redstone)
+    "$item_36": [ 0,  687 ], // Arrow of Swiftness (Redstone)
+    "$item_37": [ 0,  690 ], // Arrow of Slowness (Redstone)
+    "$item_38": [ 0,  692 ], // Arrow of Water Breathing (Redstone)
+    "$item_39": [ 0,  698 ], // Arrow of Poison (Redstone)
+    "$item_40": [ 0,  701 ], // Arrow of Regeneration (Redstone)
+
+    "$item_41": [ 0,  704 ], // Arrow of Strength (Redstone)
+    "$item_42": [ 0,  707 ], // Arrow of Weakness (Redstone)
+    "$item_43": [ 0,  708 ], // Arrow of Decay (Other)
+    "$item_44": [ 0,  710 ], // Arrow of the Turtle Master (Redstone)
+    "$item_45": [ 0,  713 ], // Arrow of Slow Falling (Redstone)
+    "$item_46": [ 0,  683 ], // Arrow of Leaping (glowstone)
+    "$item_47": [ 0,  688 ], // Arrow of Swiftness (glowstone)
+    "$item_48": [ 0,  694 ], // Arrow of Healing (glowstone)
+    "$item_49": [ 0,  696 ], // Arrow of Harming (glowstone)
+    "$item_50": [ 0,  699 ]  // Arrow of Poison (glowstone)
+  },
+
+  "tools_items_page_3@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  702 ], // Arrow of Regeneration (glowstone)
+    "$item_02": [ 0,  705 ], // Arrow of Strength (glowstone)
+    "$item_03": [ 0,  711 ], // Arrow of the Turtle Master (glowstone)
+    "$item_04": [ 0, 1046 ], // Protection IV (Enchanted Book)
+    "$item_05": [ 0, 1050 ], // Fire Protection IV (Enchanted Book)
+    "$item_06": [ 0, 1054 ], // Feather Falling IV (Enchanted Book)
+    "$item_07": [ 0, 1058 ], // Blast Protection IV (Enchanted Book)
+    "$item_08": [ 0, 1062 ], // Proyectile Protection IV (Enchanted Book)
+    "$item_09": [ 0, 1068 ], // Respiration III (Enchanted Book)
+    "$item_10": [ 0, 1072 ], // Aqua Affinity I (Enchanted Book)
+
+    "$item_11": [ 0, 1065 ], // Thorns III (Enchanted Book)
+    "$item_12": [ 0, 1071 ], // Depth Strider III (Enchanted Book)
+    "$item_13": [ 0, 1123 ], // Frost Walker II (Enchanted Book)
+    "$item_14": [ 0, 1125 ], // Curse of Binding I (Enchanted Book)
+    "$item_15": [ 0, 1077 ], // Sharpness V (Enchanted Book)
+    "$item_16": [ 0, 1082 ], // Smite V (Enchanted Book)
+    "$item_17": [ 0, 1087 ], // Bane of Arthropods V (Enchanted Book)
+    "$item_18": [ 0, 1089 ], // Knockback II (Enchanted Book)
+    "$item_19": [ 0, 1091 ], // Fire Aspect II (Enchanted Book)
+    "$item_20": [ 0, 1094 ], // Looting III (Enchanted Book)
+
+    "$item_21": [ 0, 1099 ], // Efficency V (Enchanted Book)
+    "$item_22": [ 0, 1100 ], // Silk Touch I (Enchanted Book)
+    "$item_23": [ 0, 1103 ], // Unbreaking III (Enchanted Book)
+    "$item_24": [ 0, 1106 ], // Fortune III (Enchanted Book)
+    "$item_25": [ 0, 1111 ], // Power V (Enchanted Book)
+    "$item_26": [ 0, 1113 ], // Punch II (Enchanted Book)
+    "$item_27": [ 0, 1114 ], // Flame I (Enchanted Book)
+    "$item_28": [ 0, 1115 ], // Infinity I (Enchanted Book)
+    "$item_29": [ 0, 1118 ], // Luck of the Sea III (Enchanted Book)
+    "$item_30": [ 0, 1121 ], // Lure III (Enchanted Book)
+
+    "$item_31": [ 0, 1124 ], // Mending I (Enchanted Book)
+    "$item_32": [ 0, 1126 ], // Curse of Vanishing I (Enchanted Book)
+    "$item_33": [ 0, 1131 ], // Impaling V (Enchanted Book)
+    "$item_34": [ 0, 1134 ], // Riptide III (Enchanted Book)
+    "$item_35": [ 0, 1137 ], // Loyality III (Enchanted Book)
+    "$item_36": [ 0, 1138 ], // Channeling I (Enchanted Book)
+    "$item_37": [ 0, 1139 ], // Multishot I (Enchanted Book)
+    "$item_38": [ 0, 1143 ], // Piercing IV (Enchanted Book)
+    "$item_39": [ 0, 1146 ], // Quick Charge III (Enchanted Book)
+    "$item_40": [ 0, 1149 ],  // Soul Speed III (Enchanted Book)
+
+    "$item_41": [ 0,  741 ], /* Empty Map            */
+    "$item_42": [ 0,  625 ], /* Netherite Helmet     */
+    "$item_43": [ 0,  631 ], /* Netherite Chestplate */
+    "$item_44": [ 0,  637 ], /* Netherite Leggings   */
+    "$item_45": [ 0,  643 ], /* Netherite Boots      */
+    "$item_46": [ 0,  649 ], /* Netherite Sword      */ "$size_24_item_46": true,
+    "$item_47": [ 0,  667 ], /* Netherite Shovel     */ "$size_24_item_47": true,
+    "$item_48": [ 0,  661 ], /* Netherite Pickaxe    */ "$size_24_item_48": true,
+    "$item_49": [ 0,  655 ], /* Netherite Axe        */ "$size_24_item_49": true,
+    "$item_50": [ 0,  673 ], /* Netherite Hoe        */ "$size_24_item_50": true
+  },
+
+  "tools_items_page_4@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  734 ], /* Warped Fungus on a Stick */ "$size_24_item_01": true,
+    "$item_02": [ 0,  714 ]  // Arrow of Slowness (Other/IV)
+  }
+}

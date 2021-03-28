@@ -1,0 +1,79 @@
+{
+  "namespace": "creative_materials_4jd",
+
+  "materials_items_page_1@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  999 ], // Coal
+    "$item_02": [ 0, 1000 ], // Charcoal
+    "$item_03": [ 0, 1001 ], // Diamond
+    "$item_04": [ 0, 1008 ], // Emerald
+    "$item_05": [ 0, 1003 ], // Iron Ingot
+    "$item_06": [ 0, 1007 ], // Gold Ingot
+    "$item_07": [ 0, 1009 ], // Nether Quartz
+    "$item_08": [ 0, 1011 ], // Brick
+    "$item_09": [ 0, 1012 ], // Nether Brick
+    "$item_10": [ 0,  883 ], /* Stick */  "$size_24_item_10": true,
+
+    "$item_11": [ 0,  979 ], // Bowl
+    "$item_12": [ 0,  521 ], /* Bone */ "$size_24_item_12": true,
+    "$item_13": [ 0, 1019 ], // String
+    "$item_14": [ 0, 1020 ], // Feather
+    "$item_15": [ 0, 1021 ], // Flint
+    "$item_16": [ 0, 1023 ], // Leather
+    "$item_17": [ 0, 1024 ], // Rabbit Hide
+    "$item_18": [ 0, 1022 ], // Gunpowder
+    "$item_19": [ 0, 1010 ], // Clay
+    "$item_20": [ 0,  963 ], // Glowstone
+
+    "$item_21": [ 0, 1014 ], // Prismarine Crystals
+    "$item_22": [ 0, 1013 ], // Prismarine Shard
+    "$item_23": [ 0, 1015 ], // Nautilus Shell
+    "$item_24": [ 0, 1016 ], // Heart of the Sea
+    "$item_25": [ 0,  402 ], // Seeds
+    "$item_26": [ 0,  404 ], // Melon Seeds
+    "$item_27": [ 0,  403 ], // Pumpkin Seeds
+    "$item_28": [ 0,  405 ], // Beetroot Seeds
+    "$item_29": [ 0,  406 ], // Wheat
+    "$item_30": [ 0,  518 ], // Sugar Cane
+
+    "$item_31": [ 0,  517 ], // Egg
+    "$item_32": [ 0,  519 ], // Sugar
+    "$item_33": [ 0, 1034 ], // Slimeball
+    "$item_34": [ 0, 1027 ], /* Blaze Rod */ "$size_24_item_34": true,
+    "$item_35": [ 0, 1006 ], // Gold Nugget
+    "$item_36": [ 0, 1002 ], // Iron Nugget
+    "$item_37": [ 0, 1032 ], // Shulker Shell
+    "$item_38": [ 0,  602 ], // Nether Wart
+    "$item_39": [ 0,  607 ], // Popped Chorus Fruit
+    "$item_40": [ 0, 1017 ], // Scute
+
+    "$item_41": [ 0,  485 ], // Ink Sac
+    "$item_42": [ 0,  487 ], // Lapis Lazuli
+    "$item_43": [ 0,  480 ], // Light Blue Dye
+    "$item_44": [ 0,  479 ], // Cyan Dye
+    "$item_45": [ 0,  478 ], // Green Dye
+    "$item_46": [ 0,  477 ], // Lime Dye
+    "$item_47": [ 0,  484 ], // Pink Dye
+    "$item_48": [ 0,  483 ], // Magenta Dye
+    "$item_49": [ 0,  484 ], // Purple Dye
+    "$item_50": [ 0,  474 ]  // Red Dye
+  },
+
+  "materials_items_page_2@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  486 ], // Cocoa Beans
+    "$item_02": [ 0,  475 ], // Orange Dye
+    "$item_03": [ 0,  476 ], // Yellow Dye
+    "$item_04": [ 0,  488 ], // Bone Meal
+    "$item_05": [ 0,  470 ], // Light Gray Dye
+    "$item_06": [ 0,  471 ], // Gray Dye
+    "$item_07": [ 0,  472 ], // Black Dye
+    "$item_08": [ 0,  481 ], // Blue Dye
+    "$item_09": [ 0,  473 ], // Brown Dye
+    "$item_10": [ 0,  469 ], // White Dye
+
+    
+    "$item_12": [ 0,  494 ], /* Bamboo */ "$size_24_item_12": true,
+    "$item_13": [ 0,  422 ], // Honeycomb
+    "$item_14": [ 0, 1004 ], // Netherite Scrap
+    "$item_15": [ 0, 1005 ]  // Netherite Ingot
+  }
+}

@@ -1,10 +1,30 @@
 {
   "ui_defs": [
-    /* Common Sections */
+    ////*/ Common Sections /*////
     "ui4jd/common_sections/ui_common.ui4jd",
     "ui4jd/common_sections/ui_4jd_textures.ui4jd",
-    /* Inventory Screens */
+    "ui4jd/common_sections/ui_template_buttons.ui4jd",
+    "ui4jd/common_sections/ui_template_toggles.ui4jd",
+    ////*/ Inventory Screens /*////
     "ui4jd/inventory_screens/anvil_screen.ui4jd",
-    "ui4jd/inventory_screens/beacon_screen.ui4jd"
+    "ui4jd/inventory_screens/beacon_screen.ui4jd",
+    "ui4jd/inventory_screens/crafting_screen.ui4jd",
+    "ui4jd/inventory_screens/creative_screen.ui4jd",
+    "ui4jd/inventory_screens/inventory_screen.ui4jd",
+    "ui4jd/inventory_screens/test_component.ui4jd",
+    "ui4jd/inventory_screens/crafting_sections/3x3_crafting_tabs.ui4jd",
+    /* Creative Sections */
+    "ui4jd/inventory_screens/creative_sections/building_blocks_sections.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/brewing_sections.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/creative_tabs.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/creative_items_common.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/decorations_sections.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/food_sections.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/materials_sections.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/miscellaneous_sections.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/pages_panel.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/panel_content_pages.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/redstone_and_transport_sections.ui4jd",
+    "ui4jd/inventory_screens/creative_sections/tools_weapons_and_armor_sections.ui4jd"
   ]
 }

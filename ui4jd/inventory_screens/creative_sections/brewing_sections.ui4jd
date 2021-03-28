@@ -1,0 +1,150 @@
+{
+  "namespace": "creative_brewing_4jd",
+
+  "brewing_items_page_1@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  753 ], // Bottle o' Enchanting
+    "$item_02": [ 0, 1031 ], // Dragon's Breath
+    "$item_03": [ 0, 1033 ], // Ghast Tear
+    "$item_04": [ 0, 1030 ], // Fermented Spider Eye
+    "$item_05": [ 0, 1028 ], // Blaze Powder
+    "$item_06": [ 0, 1029 ], // Magma Cream
+    "$item_07": [ 0,  417 ], // Glistering Melon
+    "$item_08": [ 0, 1025 ], // Rabbit's Foot
+    "$item_09": [ 0, 1018 ], // Phantom Membrane
+    "$item_10": [ 0,  752 ], // Glass Bottle
+
+    "$item_11": [ 0,  754 ], // Water Bottle
+    "$item_12": [ 0,  755 ], // Mundane Potion
+    "$item_13": [ 0,  756 ], // Long Mundane Potion
+    "$item_14": [ 0,  757 ], // Thick Potion
+    "$item_15": [ 0,  758 ], // Akward Potion
+    "$item_16": [ 0,  759 ], // Potion of Night Vision (Normal)
+    "$item_17": [ 0,  761 ], // Potion of Invisibility (Normal)
+    "$item_18": [ 0,  763 ], // Potion of Leaping (Normal)
+    "$item_19": [ 0,  766 ], // Potion of Fire Resistance (Normal)
+    "$item_20": [ 0,  768 ], // Potion of Swiftness (Normal)
+
+    "$item_21": [ 0,  771 ], // Potion of Slowness (Normal)
+    "$item_22": [ 0,  773 ], // Potion of Water Breathing (Normal)
+    "$item_23": [ 0,  775 ], // Potion of Healing (Normal)
+    "$item_24": [ 0,  777 ], // Potion of Harming (Normal)
+    "$item_25": [ 0,  779 ], // Potion of Poison (Normal)
+    "$item_26": [ 0,  782 ], // Potion of Regeneration (Normal)
+    "$item_27": [ 0,  785 ], // Potion of Strength (Normal)
+    "$item_28": [ 0,  788 ], // Potion of Weakness (Normal)
+    "$item_29": [ 0,  791 ], // Potion of the Turtle Master (Normal)
+    "$item_30": [ 0,  794 ], // Potion of Slow Falling (Normal)
+
+    "$item_31": [ 0,  797 ], // Splash Water Bottle
+    "$item_32": [ 0,  802 ], // Splash Potion of Night Vision (Normal)
+    "$item_33": [ 0,  804 ], // Splash Potion of Invisibility (Normal)
+    "$item_34": [ 0,  806 ], // Splash Potion of Leaping (Normal)
+    "$item_35": [ 0,  809 ], // Splash Potion of Fire Resistance (Normal)
+    "$item_36": [ 0,  811 ], // Splash Potion of Swiftness (Normal)
+    "$item_37": [ 0,  814 ], // Splash Potion of Slowness (Normal)
+    "$item_38": [ 0,  816 ], // Splash Potion of Water Breathing (Normal)
+    "$item_39": [ 0,  818 ], // Splash Potion of Healing (Normal)
+    "$item_40": [ 0,  820 ], // Splash Potion of Harming (Normal)
+
+    "$item_41": [ 0,  822 ], // Splash Potion of Poison (Normal)
+    "$item_42": [ 0,  825 ], // Splash Potion of Regeneration (Normal)
+    "$item_43": [ 0,  828 ], // Splash Potion of Strength (Normal)
+    "$item_44": [ 0,  831 ], // Splash Potion of Weakness (Normal)
+    "$item_45": [ 0,  834 ], // Splash Potion of the Turtle Master (Normal)
+    "$item_46": [ 0,  837 ], // Splash Potion of Slow Falling (Normal)
+    "$item_47": [ 0,  840 ], // Lingering Water Bottle
+    "$item_48": [ 0,  845 ], // Lingering Potion of Night Vision (Normal)
+    "$item_49": [ 0,  847 ], // Lingering Potion of Invisibility (Normal)
+    "$item_50": [ 0,  849 ]  // Lingering Potion of Leaping (Normal)
+  },
+
+  "brewing_items_page_2@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  852 ], // Lingering Potion of Fire Resistance (Normal)
+    "$item_02": [ 0,  854 ], // Lingering Potion of Swiftness (Normal)
+    "$item_03": [ 0,  857 ], // Lingering Potion of Slowness (Normal)
+    "$item_04": [ 0,  859 ], // Lingering Potion of Water Breathing (Normal)
+    "$item_05": [ 0,  861 ], // Lingering Potion of Healing (Normal)
+    "$item_06": [ 0,  863 ], // Lingering Potion of Harming (Normal)
+    "$item_07": [ 0,  865 ], // Lingering Potion of Poison (Normal)
+    "$item_08": [ 0,  868 ], // Lingering Potion of Regeneration (Normal)
+    "$item_09": [ 0,  871 ], // Lingering Potion of Strength (Normal)
+    "$item_10": [ 0,  874 ], // Lingering Potion of Weakness (Normal)
+
+    "$item_11": [ 0,  877 ], // Lingering Potion of the Turtle Master (Normal)
+    "$item_12": [ 0,  880 ], // Lingering Potion of Slow Falling (Normal)
+    "$item_13": [ 0,  760 ], // Potion of Night Vision (Redstone)
+    "$item_14": [ 0,  762 ], // Potion of Invisibility (Redstone)
+    "$item_15": [ 0,  764 ], // Potion of Leaping (Redstone)
+    "$item_16": [ 0,  767 ], // Potion of Fire Resistance (Redstone)
+    "$item_17": [ 0,  769 ], // Potion of Swiftness (Redstone)
+    "$item_18": [ 0,  772 ], // Potion of Slowness (Redstone)
+    "$item_19": [ 0,  774 ], // Potion of Water Breathing (Redstone)
+    "$item_20": [ 0,  780 ], // Potion of Poison (Redstone)
+
+    "$item_21": [ 0,  783 ], // Potion of Regeneration (Redstone)
+    "$item_22": [ 0,  786 ], // Potion of Strength (Redstone)
+    "$item_23": [ 0,  789 ], // Potion of Weakness (Redstone)
+    "$item_24": [ 0,  790 ], // Potion of Decay (Other)
+    "$item_25": [ 0,  792 ], // Potion of the Turtle Master (Redstone)
+    "$item_26": [ 0,  795 ], // Potion of Slow Falling (Redstone)
+    "$item_27": [ 0,  803 ], // Splash Potion of Night Vision (Redstone)
+    "$item_28": [ 0,  805 ], // Splash Potion of Invisibility (Redstone)
+    "$item_29": [ 0,  807 ], // Splash Potion of Leaping (Redstone)
+    "$item_30": [ 0,  810 ], // Splash Potion of Fire Resistance (Redstone)
+
+    "$item_31": [ 0,  812 ], // Splash Potion of Swiftness (Redstone)
+    "$item_32": [ 0,  815 ], // Splash Potion of Slowness (Redstone)
+    "$item_33": [ 0,  817 ], // Splash Potion of Water Breathing (Redstone)
+    "$item_34": [ 0,  823 ], // Splash Potion of Poison (Redstone)
+    "$item_35": [ 0,  826 ], // Splash Potion of Regeneration (Redstone)
+    "$item_36": [ 0,  829 ], // Splash Potion of Strength (Redstone)
+    "$item_37": [ 0,  832 ], // Splash Potion of Weakness (Redstone)
+    "$item_38": [ 0,  833 ], // Splash Potion of Decay (Other)
+    "$item_39": [ 0,  835 ], // Splash Potion of the Turtle Master (Redstone)
+    "$item_40": [ 0,  838 ], // Splash Potion of Slow Falling (Redstone)
+
+    "$item_41": [ 0,  846 ], // Lingering Potion of Night Vision (Redstone)
+    "$item_42": [ 0,  848 ], // Lingering Potion of Invisibility (Redstone)
+    "$item_43": [ 0,  850 ], // Lingering Potion of Leaping (Redstone)
+    "$item_44": [ 0,  853 ], // Lingering Potion of Fire Resistance (Redstone)
+    "$item_45": [ 0,  855 ], // Lingering Potion of Swiftness (Redstone)
+    "$item_46": [ 0,  858 ], // Lingering Potion of Slowness (Redstone)
+    "$item_47": [ 0,  860 ], // Lingering Potion of Water Breathing (Redstone)
+    "$item_48": [ 0,  866 ], // Lingering Potion of Poison (Redstone)
+    "$item_49": [ 0,  869 ], // Lingering Potion of Regeneration (Redstone)
+    "$item_50": [ 0,  872 ]  // Lingering Potion of Strength (Redstone)
+  },
+
+  "brewing_items_page_3@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  875 ], // Lingering Potion of Weakness (Redstone)
+    "$item_02": [ 0,  876 ], // Lingering Potion of Decay (Other)
+    "$item_03": [ 0,  878 ], // Lingering Potion of the Turtle Master (Redstone)
+    "$item_04": [ 0,  881 ], // Lingering Potion of Slow Falling (Redstone)
+    "$item_05": [ 0,  765 ], // Potion of Leaping (glowstone)
+    "$item_06": [ 0,  770 ], // Potion of Swiftness (glowstone)
+    "$item_07": [ 0,  776 ], // Potion of Healing (glowstone)
+    "$item_08": [ 0,  778 ], // Potion of Harming (glowstone)
+    "$item_09": [ 0,  781 ], // Potion of Poison (glowstone)
+    "$item_10": [ 0,  784 ], // Potion of Regeneration (glowstone)
+
+    "$item_11": [ 0,  787 ], // Potion of Strength (glowstone)
+    "$item_12": [ 0,  793 ], // Potion of the Turtle Master (glowstone)
+    "$item_13": [ 0,  808 ], // Splash Potion of Leaping (glowstone)
+    "$item_14": [ 0,  813 ], // Splash Potion of Swiftness (glowstone)
+    "$item_15": [ 0,  819 ], // Splash Potion of Healing (glowstone)
+    "$item_16": [ 0,  821 ], // Splash Potion of Harming (glowstone)
+    "$item_17": [ 0,  824 ], // Splash Potion of Poison (glowstone)
+    "$item_18": [ 0,  827 ], // Splash Potion of Regeneration (glowstone)
+    "$item_19": [ 0,  830 ], // Splash Potion of Strength (glowstone)
+    "$item_20": [ 0,  836 ], // Splash Potion of the Turtle Master (glowstone)
+
+    "$item_21": [ 0,  851 ], // Lingering Potion of Leaping (glowstone)
+    "$item_22": [ 0,  856 ], // Lingering Potion of Swiftness (glowstone)
+    "$item_23": [ 0,  862 ], // Lingering Potion of Healing (glowstone)
+    "$item_24": [ 0,  864 ], // Lingering Potion of Harming (glowstone)
+    "$item_25": [ 0,  867 ], // Lingering Potion of Poison (glowstone)
+    "$item_26": [ 0,  870 ], // Lingering Potion of Regeneration (glowstone)
+    "$item_27": [ 0,  873 ], // Lingering Potion of Strength (glowstone)
+    "$item_28": [ 0,  879 ]  // Lingering Potion of the Turtle Master (glowstone)
+  }
+}

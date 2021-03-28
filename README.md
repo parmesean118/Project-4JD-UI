@@ -4,13 +4,23 @@
 
 #### Description ####
 
-Is an testing TP that would change some UI, and the goal of this project is convert from default UI to high accuracy 4JD (Legacy Console) UI TP for Bedrock Edition users, replacing some designs to look more similar!
+Is an testing/experimental resource pack that would change some UI designs, and the goal of this project is convert from default UI to high accuracy 4JD (Legacy Console) UI TP for Bedrock Edition users, replacing some designs to look more similar!
 
 The UI design was originally made by Julie "Danger" Kennedy from 4J Studios! I simply recreate the UI port for Bedrock Edition ;D.
 
 For now it will be designated only for PC Windows 10 or Consoles.
 
 For mobile (Mini version) it will be available for late 2021.
+
+#### Current Features ####
+
+-Anvil screen
+-Beacon screen
+-3x3 Crafting screen (10%)
+-Start screen
+-Pause screen
+-Classic Inventory and Crafting screen (Just like JE UI).
+-Creative Screen (10%)
 
 #### License ####
 
@@ -27,7 +37,7 @@ At the moment, you can:
 
 You can't:
 - Redistribute the master (current) version to other pages.
-- Make previews. (Not yet)
+- Make reviews about project 4JD. (Not yet)
 
 #### Credits ####
 

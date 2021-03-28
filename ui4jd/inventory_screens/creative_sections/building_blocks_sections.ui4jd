@@ -1,0 +1,288 @@
+{
+  "namespace": "creative_building_blocks_4jd",
+
+  "building_blocks_items_page_1@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0, 1268 ], // Stone
+    "$item_02": [ 0, 1268 ], // Grass Block
+    "$item_03": [ 0, 1268 ], // Grass (Dirth) Path Block
+    "$item_04": [ 0, 1268 ], // Dirt
+    "$item_05": [ 0, 1268 ], // Cobblestone
+    "$item_06": [ 0, 1268 ], // Smooth Stone
+    "$item_07": [ 0, 1268 ], // Sand
+    "$item_08": [ 0, 1268 ], // Sandstone
+    "$item_09": [ 0, 1268 ], // Smooth Sandstone
+    "$item_10": [ 0, 1268 ], // Chiseled Sandstone
+
+    "$item_11": [ 0, 1268 ], // Cut Sandstone
+    "$item_12": [ 0, 1268 ], // Red Sand
+    "$item_13": [ 0, 1268 ], // Red Sandstone
+    "$item_14": [ 0, 1268 ], // Smooth Red Sandstone
+    "$item_15": [ 0, 1268 ], // Chiseled Red Sandstone
+    "$item_16": [ 0, 1268 ], // Cut Red Sandstone
+    "$item_17": [ 0, 1268 ], // Granite
+    "$item_18": [ 0, 1268 ], // Polished Granite
+    "$item_19": [ 0, 1268 ], // Andesite
+    "$item_20": [ 0, 1268 ], // Polished Andesite
+
+    "$item_21": [ 0, 1268 ], // Diorite
+    "$item_22": [ 0, 1268 ], // Polished Diorite
+    "$item_23": [ 0, 1268 ], // Block of Coal
+    "$item_24": [ 0, 1268 ], // Dried Kelp Block
+    "$item_25": [ 0, 1268 ], // Block of Gold
+    "$item_26": [ 0, 1268 ], // Block of Iron
+    "$item_27": [ 0, 1268 ], // Block of Lapis Lazuli
+    "$item_28": [ 0, 1268 ], // Block of Diamond
+    "$item_29": [ 0, 1268 ], // Block of Emerald
+    "$item_30": [ 0, 1268 ], // Block of Quartz
+
+    "$item_31": [ 0, 1268 ], // Block of Netherite
+    "$item_32": [ 0, 1268 ], // Coal Ore
+    "$item_33": [ 0, 1268 ], // Lapis Lazuli Ore
+    "$item_34": [ 0, 1268 ], // Diamond Ore
+    "$item_35": [ 0, 1268 ], // Redstone Ore
+    "$item_36": [ 0, 1268 ], // Iron Ore
+    "$item_37": [ 0, 1268 ], // Gold Ore
+    "$item_38": [ 0, 1268 ], // Emerald Ore
+    "$item_39": [ 0, 1268 ], // Nether Quartz Ore
+    "$item_40": [ 0, 1268 ], // Nether Gold Ore
+
+    "$item_41": [ 0, 1268 ], // Ancient Debris
+    "$item_42": [ 0, 1268 ], // Nether Wart Block
+    "$item_43": [ 0, 1268 ], // Warped Wart Block
+    "$item_44": [ 0, 1268 ], // Bedrock
+    "$item_45": [ 0, 1268 ], // Oak Planks
+    "$item_46": [ 0, 1268 ], // Spruce Planks
+    "$item_47": [ 0, 1268 ], // Birch Planks
+    "$item_48": [ 0, 1268 ], // Jungle Planks
+    "$item_49": [ 0, 1268 ], // Acacia Planks
+    "$item_50": [ 0, 1268 ]  // Dark Oak Planks
+  },
+
+  "building_blocks_items_page_2@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0, 1268 ], // Crimson Planks
+    "$item_02": [ 0, 1268 ], // Warped Planks
+    "$item_03": [ 0, 1268 ], // Oak Log
+    "$item_04": [ 0, 1268 ], // Spruce Log
+    "$item_05": [ 0, 1268 ], // Birch Log
+    "$item_06": [ 0, 1268 ], // Jungle Log
+    "$item_07": [ 0, 1268 ], // Acacia Log
+    "$item_08": [ 0, 1268 ], // Dark Oak Log
+    "$item_09": [ 0, 1268 ], // Crimson Stem
+    "$item_10": [ 0, 1268 ], // Warped Stem
+
+    "$item_11": [ 0, 1268 ], // Stripped Oak Log
+    "$item_12": [ 0, 1268 ], // Stripped Spruce Log
+    "$item_13": [ 0, 1268 ], // Stripped Birch Log
+    "$item_14": [ 0, 1268 ], // Stripped Jungle Log
+    "$item_15": [ 0, 1268 ], // Stripped Acacia Log
+    "$item_16": [ 0, 1268 ], // Stripped Dark Oak Log
+    "$item_17": [ 0, 1268 ], // Stripped Crimson Stem
+    "$item_18": [ 0, 1268 ], // Stripped Warped Stem
+    "$item_19": [ 0, 1268 ], // Gravel
+    "$item_20": [ 0, 1268 ], // Brick
+
+    "$item_21": [ 0, 1268 ], // Mossy Cobblestone
+    "$item_22": [ 0, 1268 ], // Obsidian
+    "$item_23": [ 0, 1268 ], // Clay
+    "$item_24": [ 0, 1268 ], // Ice
+    "$item_25": [ 0, 1268 ], // Packet Ice
+    "$item_26": [ 0, 1268 ], // Blue Ice
+    "$item_27": [ 0, 1268 ], // Snow
+    "$item_28": [ 0, 1268 ], // Netherrack
+    "$item_29": [ 0, 1268 ], // Crimson Nylium
+    "$item_30": [ 0, 1268 ], // Warped Nylium
+
+    "$item_31": [ 0, 1268 ], // Soul Sand
+    "$item_32": [ 0, 1268 ], // Soul Soil
+    "$item_33": [ 0, 1268 ], // 
+    "$item_34": [ 0, 1268 ], // 
+    "$item_35": [ 0, 1268 ], // 
+    "$item_36": [ 0, 1268 ], // 
+    "$item_37": [ 0, 1268 ], // 
+    "$item_38": [ 0, 1268 ], // 
+    "$item_39": [ 0, 1268 ], // 
+    "$item_40": [ 0, 1268 ], // 
+    
+    "$item_41": [ 0, 1268 ], // 
+    "$item_42": [ 0, 1268 ], // 
+    "$item_43": [ 0, 1268 ], // 
+    "$item_44": [ 0, 1268 ], // 
+    "$item_45": [ 0, 1268 ], // 
+    "$item_46": [ 0, 1268 ], // 
+    "$item_47": [ 0, 1268 ], // 
+    "$item_48": [ 0, 1268 ], // 
+    "$item_49": [ 0, 1268 ], // 
+    "$item_50": [ 0, 1268 ]  // 
+  },
+
+  "building_blocks_items_page_3@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0, 1268 ], // 
+    "$item_02": [ 0, 1268 ], // 
+    "$item_03": [ 0, 1268 ], // 
+    "$item_04": [ 0, 1268 ], // 
+    "$item_05": [ 0, 1268 ], // 
+    "$item_06": [ 0, 1268 ], // 
+    "$item_07": [ 0, 1268 ], // 
+    "$item_08": [ 0, 1268 ], // 
+    "$item_09": [ 0, 1268 ], // 
+    "$item_10": [ 0, 1268 ], // 
+
+    "$item_11": [ 0, 1268 ], // 
+    "$item_12": [ 0, 1268 ], // 
+    "$item_13": [ 0, 1268 ], // 
+    "$item_14": [ 0, 1268 ], // 
+    "$item_15": [ 0, 1268 ], // 
+    "$item_16": [ 0, 1268 ], // 
+    "$item_17": [ 0, 1268 ], // 
+    "$item_18": [ 0, 1268 ], // 
+    "$item_19": [ 0, 1268 ], // 
+    "$item_20": [ 0, 1268 ], // 
+
+    "$item_21": [ 0, 1268 ], // 
+    "$item_22": [ 0, 1268 ], // 
+    "$item_23": [ 0, 1268 ], // 
+    "$item_24": [ 0, 1268 ], // 
+    "$item_25": [ 0, 1268 ], // 
+    "$item_26": [ 0, 1268 ], // 
+    "$item_27": [ 0, 1268 ], // 
+    "$item_28": [ 0, 1268 ], // 
+    "$item_29": [ 0, 1268 ], // 
+    "$item_30": [ 0, 1268 ], // 
+
+    "$item_31": [ 0, 1268 ], // 
+    "$item_32": [ 0, 1268 ], // 
+    "$item_33": [ 0, 1268 ], // 
+    "$item_34": [ 0, 1268 ], // 
+    "$item_35": [ 0, 1268 ], // 
+    "$item_36": [ 0, 1268 ], // 
+    "$item_37": [ 0, 1268 ], // 
+    "$item_38": [ 0, 1268 ], // 
+    "$item_39": [ 0, 1268 ], // 
+    "$item_40": [ 0, 1268 ], // 
+    
+    "$item_41": [ 0, 1268 ], // 
+    "$item_42": [ 0, 1268 ], // 
+    "$item_43": [ 0, 1268 ], // 
+    "$item_44": [ 0, 1268 ], // 
+    "$item_45": [ 0, 1268 ], // 
+    "$item_46": [ 0, 1268 ], // 
+    "$item_47": [ 0, 1268 ], // 
+    "$item_48": [ 0, 1268 ], // 
+    "$item_49": [ 0, 1268 ], // 
+    "$item_50": [ 0, 1268 ]  // 
+  },
+
+  "building_blocks_items_page_4@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0, 1268 ], // 
+    "$item_02": [ 0, 1268 ], // 
+    "$item_03": [ 0, 1268 ], // 
+    "$item_04": [ 0, 1268 ], // 
+    "$item_05": [ 0, 1268 ], // 
+    "$item_06": [ 0, 1268 ], // 
+    "$item_07": [ 0, 1268 ], // 
+    "$item_08": [ 0, 1268 ], // 
+    "$item_09": [ 0, 1268 ], // 
+    "$item_10": [ 0, 1268 ], // 
+
+    "$item_11": [ 0, 1268 ], // 
+    "$item_12": [ 0, 1268 ], // 
+    "$item_13": [ 0, 1268 ], // 
+    "$item_14": [ 0, 1268 ], // 
+    "$item_15": [ 0, 1268 ], // 
+    "$item_16": [ 0, 1268 ], // 
+    "$item_17": [ 0, 1268 ], // 
+    "$item_18": [ 0, 1268 ], // 
+    "$item_19": [ 0, 1268 ], // 
+    "$item_20": [ 0, 1268 ], // 
+
+    "$item_21": [ 0, 1268 ], // 
+    "$item_22": [ 0, 1268 ], // 
+    "$item_23": [ 0, 1268 ], // 
+    "$item_24": [ 0, 1268 ], // 
+    "$item_25": [ 0, 1268 ], // 
+    "$item_26": [ 0, 1268 ], // 
+    "$item_27": [ 0, 1268 ], // 
+    "$item_28": [ 0, 1268 ], // 
+    "$item_29": [ 0, 1268 ], // 
+    "$item_30": [ 0, 1268 ], // 
+
+    "$item_31": [ 0, 1268 ], // 
+    "$item_32": [ 0, 1268 ], // 
+    "$item_33": [ 0, 1268 ], // 
+    "$item_34": [ 0, 1268 ], // 
+    "$item_35": [ 0, 1268 ], // 
+    "$item_36": [ 0, 1268 ], // 
+    "$item_37": [ 0, 1268 ], // 
+    "$item_38": [ 0, 1268 ], // 
+    "$item_39": [ 0, 1268 ], // 
+    "$item_40": [ 0, 1268 ], // 
+    
+    "$item_41": [ 0, 1268 ], // 
+    "$item_42": [ 0, 1268 ], // 
+    "$item_43": [ 0, 1268 ], // 
+    "$item_44": [ 0, 1268 ], // 
+    "$item_45": [ 0, 1268 ], // 
+    "$item_46": [ 0, 1268 ], // 
+    "$item_47": [ 0, 1268 ], // 
+    "$item_48": [ 0, 1268 ], // 
+    "$item_49": [ 0, 1268 ], // 
+    "$item_50": [ 0, 1268 ]  // 
+  },
+
+  "building_blocks_items_page_5@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0, 1268 ], // 
+    "$item_02": [ 0, 1268 ], // 
+    "$item_03": [ 0, 1268 ], // 
+    "$item_04": [ 0, 1268 ], // 
+    "$item_05": [ 0, 1268 ], // 
+    "$item_06": [ 0, 1268 ], // 
+    "$item_07": [ 0, 1268 ], // 
+    "$item_08": [ 0, 1268 ], // 
+    "$item_09": [ 0, 1268 ], // 
+    "$item_10": [ 0, 1268 ], // 
+
+    "$item_11": [ 0, 1268 ], // 
+    "$item_12": [ 0, 1268 ], // 
+    "$item_13": [ 0, 1268 ], // 
+    "$item_14": [ 0, 1268 ], // 
+    "$item_15": [ 0, 1268 ], // 
+    "$item_16": [ 0, 1268 ], // 
+    "$item_17": [ 0, 1268 ], // 
+    "$item_18": [ 0, 1268 ], // 
+    "$item_19": [ 0, 1268 ], // 
+    "$item_20": [ 0, 1268 ], // 
+
+    "$item_21": [ 0, 1268 ], // 
+    "$item_22": [ 0, 1268 ], // 
+    "$item_23": [ 0, 1268 ], // 
+    "$item_24": [ 0, 1268 ], // 
+    "$item_25": [ 0, 1268 ], // 
+    "$item_26": [ 0, 1268 ], // 
+    "$item_27": [ 0, 1268 ], // 
+    "$item_28": [ 0, 1268 ], // 
+    "$item_29": [ 0, 1268 ], // 
+    "$item_30": [ 0, 1268 ], // 
+
+    "$item_31": [ 0, 1268 ], // 
+    "$item_32": [ 0, 1268 ], // 
+    "$item_33": [ 0, 1268 ], // 
+    "$item_34": [ 0, 1268 ], // 
+    "$item_35": [ 0, 1268 ], // 
+    "$item_36": [ 0, 1268 ], // 
+    "$item_37": [ 0, 1268 ], // 
+    "$item_38": [ 0, 1268 ], // 
+    "$item_39": [ 0, 1268 ], // 
+    "$item_40": [ 0, 1268 ], // 
+    
+    "$item_41": [ 0, 1268 ], // 
+    "$item_42": [ 0, 1268 ], // 
+    "$item_43": [ 0, 1268 ], // 
+    "$item_44": [ 0, 1268 ], // 
+    "$item_45": [ 0, 1268 ], // 
+    "$item_46": [ 0, 1268 ], // 
+    "$item_47": [ 0, 1268 ], // 
+    "$item_48": [ 0, 1268 ], // 
+    "$item_49": [ 0, 1268 ], // 
+    "$item_50": [ 0, 1268 ]  // 
+  }
+}

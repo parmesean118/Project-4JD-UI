@@ -67,19 +67,20 @@
     ]
   },
 
-  "cost_label@anvil.cost_label": {
+  "cost_label@common_4jd.global_label": {
     "shadow": true,
     "offset": [ -13, 90.5 ],
     "layer": 3,
     "anchor_from": "top_right",
     "anchor_to": "top_right",
+    "text": "#text",
     "controls": [
       {
         "text_bg": {
           "type": "image",
           "size": [ "100% + 5px", 12 ],
           "offset": [ -0.5, 0 ],
-          "texture": "textures/ui4jd/base_color",
+          "texture": "textures/ui4jd/global/base_color",
           "layer": -1,
           "color": [ 0, 0, 0 ],
           "alpha": 0.5
@@ -112,7 +113,9 @@
         }
       },
       {
-        "title_panel@anvil.title_label": {
+        "title_panel@common_4jd.global_label": {
+          "color": "$title_text_color",
+          "text": "container.repair",
           "layer": 2,
           "offset": [ 73.5, 10.5 ],
           "anchor_from": "top_left",
@@ -191,6 +194,7 @@
   "anvil_screen_content@common_4jd.center_screen": {
     "controls": [
       { "anvil_panel@anvil_4jd.anvil_panel": { } },
+      { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
       { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
     ]

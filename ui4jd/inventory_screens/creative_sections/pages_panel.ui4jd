@@ -1,0 +1,82 @@
+/*File made by @CrisXolt.
+//(c) Don't use any code design without permission!*/
+{
+  "namespace": "creative_pages_panels",
+  
+  /*//// Panels base ////*/
+
+  "creative_tab_pages": {
+    "type": "panel",
+    "$1_page_only|default": false,
+    "controls": [
+      { "page_1@creative_tab_pages.page_1": { "$ignore_next_button": "$1_page_only" } },
+      { "page_2@creative_pages_panels.page_2": { "ignored": "$1_page_only" } }
+    ]
+  },
+
+  "page_2": {
+    "type": "panel",
+    "$2_pages_only|default": false,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_2_button_toggle')",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "page_2@creative_tab_pages.page_2": { "$ignore_next_button": "$2_pages_only" } },
+      { "page_3@creative_pages_panels.page_3": { "ignored": "$2_pages_only" } }
+    ]
+  },
+
+  "page_3": {
+    "type": "panel",
+    "$3_pages_only|default": false,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_3_button_toggle')",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "page_3@creative_tab_pages.page_3": { "$ignore_next_button": "$3_pages_only" } },
+      { "page_4@creative_pages_panels.page_4": { "ignored": "$3_pages_only" } }
+    ]
+  },
+
+  "page_4": {
+    "type": "panel",
+    "$4_pages_only|default": false,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_4_button_toggle')",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "page_4@creative_tab_pages.page_4": { "$ignore_next_button": "$4_pages_only" } },
+      { "page_5@creative_pages_panels.page_5": { "ignored": "$4_pages_only" } }
+    ]
+  },
+
+  "page_5": {
+    "type": "panel",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_5_button_toggle')",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "page_5@creative_tab_pages.page_5": { "$ignore_next_button": true  } }
+    ]
+  }
+}

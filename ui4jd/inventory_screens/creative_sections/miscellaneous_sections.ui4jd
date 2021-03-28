@@ -1,0 +1,182 @@
+{
+  "namespace": "creative_miscellaneous_4jd",
+
+  "miscellaneous_items_page_1@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  926 ], // Chest
+    "$item_02": [ 0,  928 ], // Ender Chest
+    "$item_03": [ 0,  905 ], // Crafting Table
+    "$item_04": [ 0,  912 ], // Furnace
+    "$item_05": [ 0,  916 ], // Brewing Stand
+    "$item_06": [ 0,  921 ], // Enchanting Table
+    "$item_07": [ 0,  994 ], // Beacon
+    "$item_08": [ 0,  996 ], // Conduit
+    "$item_09": [ 0,  929 ], // Barrel
+    "$item_10": [ 0,  906 ], // Cartography Table
+
+    "$item_11": [ 0, 1202 ], // Loom
+    "$item_12": [ 0,  923 ], // Lectern
+    "$item_13": [ 0,  913 ], // Blast Furnace
+    "$item_14": [ 0,  914 ], // Smoker
+    "$item_15": [ 0,  910 ], // Campfire
+    "$item_16": [ 0,  911 ], // Soul Campfire
+    "$item_17": [ 0,  925 ], // Composter
+    "$item_18": [ 0,  920 ], // Grindstone
+    "$item_19": [ 0,  997 ], // Stonecutter
+    "$item_20": [ 0,  907 ], // Fletching Table
+
+    "$item_21": [ 0,  908 ], // Smithing Table
+    "$item_22": [ 0,  995 ], // Bell
+    "$item_23": [ 0,  930 ], // Shulker Box
+    "$item_24": [ 0,  934 ], // Black Shulker Box
+    "$item_25": [ 0,  943 ], // Blue Shulker Box
+    "$item_26": [ 0,  942 ], // Light Blue Shulker Box
+    "$item_27": [ 0,  941 ], // Cyan Shulker Box
+    "$item_28": [ 0,  940 ], // Green Shulker Box
+    "$item_29": [ 0,  939 ], // Lime Shulker Box
+    "$item_30": [ 0,  946 ], // Pink Shulker Box
+
+    "$item_31": [ 0,  945 ], // Magenta Shulker Box
+    "$item_32": [ 0,  944 ], // Purple Shulker Box
+    "$item_33": [ 0,  936 ], // Red Shulker Box
+    "$item_34": [ 0,  935 ], // Brown Shulker Box
+    "$item_35": [ 0,  937 ], // Orange Shulker Box
+    "$item_36": [ 0,  938 ], // Yellow Shulker Box
+    "$item_37": [ 0,  931 ], // White Shulker Box
+    "$item_38": [ 0,  932 ], // Light Gray Shulker Box
+    "$item_39": [ 0,  933 ], // Gray Shulker Box
+    "$item_40": [ 0,  887 ], // Black Bed
+
+    "$item_41": [ 0,  896 ], // Blue Bed
+    "$item_42": [ 0,  895 ], // Light Bed
+    "$item_43": [ 0,  894 ], // Cyan Bed
+    "$item_44": [ 0,  893 ], // Green Bed
+    "$item_45": [ 0,  892 ], // Lime Bed
+    "$item_46": [ 0,  899 ], // Pink Bed
+    "$item_47": [ 0,  898 ], // Magenta Bed
+    "$item_48": [ 0,  897 ], // Purple Bed
+    "$item_49": [ 0,  889 ], // Red Bed
+    "$item_50": [ 0,  888 ]  // Brown Bed
+  },
+
+  "miscellaneous_items_page_2@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  890 ], // Orange Bed
+    "$item_02": [ 0,  891 ], // Yellow Bed
+    "$item_03": [ 0,  884 ], // White Bed
+    "$item_04": [ 0,  885 ], // Light Gray Bed
+    "$item_05": [ 0,  886 ], // Gray Bed
+    "$item_06": [ 0,  998 ], // End Frame Portal
+    "$item_07": [ 0, 1039 ], // Ender Crystal
+    "$item_08": [ 0,  949 ], // Jukebox
+    "$item_09": [ 0,  917 ], // Anvil
+    "$item_10": [ 0,  980 ], // Bucket
+    
+    "$item_11": [ 0,  983 ], // Lava Bucket
+    "$item_12": [ 0,  982 ], // Water Bucket
+    "$item_13": [ 0,  981 ], // Milk bucket
+    "$item_14": [ 0,  984 ], // Cod Bucket
+    "$item_15": [ 0,  985 ], // Salmon bucket
+    "$item_16": [ 0,  987 ], // Puffefish Bucket
+    "$item_17": [ 0,  986 ], // Tropical Fish Bucket
+    "$item_18": [ 0,  924 ], // Cauldron
+    "$item_19": [ 0,  735 ], // Snowball
+    "$item_20": [ 0, 1040 ], // Paper
+
+    "$item_21": [ 0, 1041 ], // Book
+    "$item_22": [ 0, 1042 ], // Book & Quill
+    "$item_23": [ 0, 1035 ], // Ender Pearl
+    "$item_24": [ 0, 1036 ], // Ender Eye
+    "$item_25": [ 0, 1201 ], // Name Tag
+    "$item_26": [ 0, 1037 ], // Nether Star
+    "$item_27": [ 0,  524 ], // Monster Spawner
+    "$item_28": [ 0,  532 ], // Sea Turtle Egg
+    "$item_29": [ 0,  560 ], // Spawn Creeper
+    "$item_30": [ 0,  563 ], // Spawn Skeleton
+
+    "$item_31": [ 0,  564 ], // Spawn Wither Skeleton
+    "$item_32": [ 0,  565 ], // Spawn Stray
+    "$item_33": [ 0,  567 ], // Spawn Spider
+    "$item_34": [ 0,  573 ], // Spawn Cave Spider
+    "$item_35": [ 0,  568 ], // Spawn Zombie
+    "$item_36": [ 0,  592 ], // Spawn Zombie Villager
+    "$item_37": [ 0,  570 ], // Spawn Husk
+    "$item_38": [ 0,  571 ], // Spawn Drowned
+    "$item_39": [ 0,  566 ], // Spawn Slime
+    "$item_40": [ 0,  578 ], // Spawn Magma Cube
+
+    "$item_41": [ 0,  574 ], // Spawn Witch
+    "$item_42": [ 0,  562 ], // Spawn Silverfish
+    "$item_43": [ 0,  584 ], // Spawn Ghast
+    "$item_44": [ 0,  569 ], // Spawn Zombified Piglin
+    "$item_45": [ 0,  585 ], // Spawn Blaze
+    "$item_46": [ 0,  561 ], // Spawn Enderman
+    "$item_47": [ 0,  577 ], // Spawn Endermite
+    "$item_48": [ 0,  586 ], // Spawn Shulker
+    "$item_49": [ 0,  593 ], // Spawn Phantom
+    "$item_50": [ 0,  575 ]  // Spawn Guardian
+  },
+
+  "miscellaneous_items_page_3@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  576 ], // Spawn Elder Guardian
+    "$item_02": [ 0,  588 ], // Spawn Evoker
+    "$item_03": [ 0,  589 ], // Spawn Vex
+    "$item_04": [ 0,  587 ], // Spawn Vindicator
+    "$item_05": [ 0,  594 ], // Spawn Pillager
+    "$item_06": [ 0,  595 ], // Spawn Ravager
+    "$item_07": [ 0,  590 ], // Spawn Villager
+    "$item_08": [ 0,  591 ], // Spawn Wandering Trader
+    "$item_09": [ 0,  543 ], // Spawn Bat
+    "$item_10": [ 0,  536 ], // Spawn Pig
+    
+    "$item_11": [ 0,  537 ], // Spawn Sheep
+    "$item_12": [ 0,  535 ], // Spawn Cow
+    "$item_13": [ 0,  542 ], // Spawn Mooshroom
+    "$item_14": [ 0,  533 ], // Spawn Chicken
+    "$item_15": [ 0,  545 ], // Spawn Rabbit
+    "$item_16": [ 0,  572 ], // Spawn Squid
+    "$item_17": [ 0,  553 ], // Spawn Cod
+    "$item_18": [ 0,  555 ], // Spawn Salmon
+    "$item_19": [ 0,  554 ], // Spawn Puffefish
+    "$item_20": [ 0,  552 ], // Spawn Tropical Fish
+
+    "$item_21": [ 0,  544 ], // Spawn Parrot
+    "$item_22": [ 0,  538 ], // Spawn Wolf
+    "$item_23": [ 0,  540 ], // Spawn Ocelot
+    "$item_24": [ 0,  541 ], // Spawn Cat
+    "$item_25": [ 0,  539 ], // Spawn Polar Bear
+    "$item_26": [ 0,  558 ], // Spawn Panda
+    "$item_27": [ 0,  547 ], // Spawn Horse
+    "$item_28": [ 0,  548 ], // Spawn Donkey
+    "$item_29": [ 0,  549 ], // Spawn Mule
+    "$item_30": [ 0,  550 ], // Spawn Skeleton Horse
+
+    "$item_31": [ 0,  551 ], // Spawn Zombie Horse
+    "$item_32": [ 0,  546 ], // Spawn Llama
+    "$item_33": [ 0,  557 ], // Spawn Sea Turtle
+    "$item_34": [ 0,  556 ], // Spawn Dolphin
+    "$item_35": [ 0,  559 ], // Spawn Fox
+    "$item_36": [ 0,  534 ], // Spawn Bee
+    "$item_37": [ 0,  581 ], // Spawn Piglin
+    "$item_38": [ 0,  583 ], // Spawn Piglin Brute
+    "$item_39": [ 0,  580 ], // Spawn Hoglin
+    "$item_40": [ 0,  582 ], // Spanw Zoglin
+
+    "$item_41": [ 0,  950 ], // Spawn Strider
+    "$item_42": [ 0,  950 ], // C418 - 13
+    "$item_43": [ 0,  951 ], // C418 - cat
+    "$item_44": [ 0,  952 ], // C418 - blocks
+    "$item_45": [ 0,  953 ], // C418 - chirp
+    "$item_46": [ 0,  954 ], // C418 - far
+    "$item_47": [ 0,  955 ], // C418 - mall
+    "$item_48": [ 0,  956 ], // C418 - mellohi
+    "$item_49": [ 0,  957 ], // C418 - stal
+    "$item_50": [ 0,  958 ]  // C418 - strad (My favorite)
+  },
+
+  "miscellaneous_items_page_4@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0,  959 ], // C418 - ward
+    "$item_02": [ 0,  960 ], // C418 - 11
+    "$item_03": [ 0,  961 ], // C418 - wait
+    "$item_04": [ 0,  962 ], // Lena Raine - Pigstep
+    "$item_05": [ 0, 1227 ]  // Firework Rocket
+  }
+}

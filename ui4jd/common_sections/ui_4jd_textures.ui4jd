@@ -1,6 +1,8 @@
 {
   "namespace": "ui_4jd_textures",
 
+  /* Durability textures */
+
   "durability_bindings": {
     "type": "image",
     "size": [ "100%", "100%" ],
@@ -33,20 +35,22 @@
     ]
   },
 
-  "durability_bar_00@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_00" },
-  "durability_bar_01@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_01" },
-  "durability_bar_02@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_02" },
-  "durability_bar_03@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_03" },
-  "durability_bar_04@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_04" },
-  "durability_bar_05@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_05" },
-  "durability_bar_06@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_06" },
-  "durability_bar_07@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_07" },
-  "durability_bar_08@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_08" },
-  "durability_bar_09@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_09" },
-  "durability_bar_10@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_10" },
-  "durability_bar_11@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_11" },
-  "durability_bar_12@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_12" },
-  "durability_bar_13@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar_13" },
+  "durability_bar_00@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/00" },
+  "durability_bar_01@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/01" },
+  "durability_bar_02@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/02" },
+  "durability_bar_03@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/03" },
+  "durability_bar_04@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/04" },
+  "durability_bar_05@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/05" },
+  "durability_bar_06@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/06" },
+  "durability_bar_07@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/07" },
+  "durability_bar_08@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/08" },
+  "durability_bar_09@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/09" },
+  "durability_bar_10@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/10" },
+  "durability_bar_11@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/11" },
+  "durability_bar_12@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/12" },
+  "durability_bar_13@ui_4jd_textures.durability_bindings": { "texture": "textures/ui4jd/durability_bar/13" },
+
+  /* Panel objects */
 
   "dialog_bg_opaque_1_5": {
     "type": "image",
@@ -56,31 +60,25 @@
 
   "text_panel": {
     "type": "image",
-    "texture": "textures/ui4jd/text_panel"
+    "texture": "textures/ui4jd/menus/text_panel"
   },
 
   "highlight_slot": {
     "type": "image",
     "size": [ "100%-2px", "100%-2px" ],
-    "texture": "textures/ui4jd/highlight_slot"
+    "texture": "textures/ui4jd/cell_images/highlight_slot"
   },
 
   "text_input": {
     "type": "image",
     "size": [ "100%+2px", "100%+2px" ],
-    "texture": "textures/ui4jd/text_input"
+    "texture": "textures/ui4jd/menus/text_input"
   },
 
   "text_input_hover": {
     "type": "image",
     "size": [ "100%+2px", "100%+2px" ],
-    "texture": "textures/ui4jd/text_input_hover"
-  },
-
-  "cell_image_1_5": {
-    "type": "image",
-    "size": [ "100%", "100%" ],
-    "texture": "textures/ui4jd/cell_image_1.5"
+    "texture": "textures/ui4jd/menus/text_input_hover"
   },
 
   "panel_content_1_5": {
@@ -89,9 +87,218 @@
     "texture": "textures/ui4jd/panel_content_1.5"
   },
 
+  "scroll_up": {
+    "type": "image",
+    "size": [ 16, 11 ],
+    "texture": "textures/ui4jd/menus/scroll_up"
+  },
+
+  "scroll_down": {
+    "type": "image",
+    "size": [ 16, 11 ],
+    "texture": "textures/ui4jd/menus/scroll_down"
+  },
+
   "confirm": {
     "type": "image",
     "size": [ 14, 14 ],
-    "texture": "textures/ui4jd/confirm"
+    "texture": "textures/ui4jd/beacon/confirm"
+  },
+
+  /* Cell Images */
+
+  "cell_image_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/1.5x"
+  },
+
+  "cell_image_normal_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/normal_1.5x"
+  },
+
+  "cell_image_invert_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/invert_1.5x"
+  },
+
+  "cell_image_red_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/red_1.5x"
+  },
+
+  "cell_image_selected_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/selected_1.5x"
+  },
+
+  "cell_image_darkgrey_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/darkgrey_1.5x"
+  },
+
+  "cell_image_lock_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/lock_1.5x"
+  },
+
+  "cell_image_2": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/2x"
+  },
+
+  "cell_image_red_2": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/red_2x"
+  },
+
+  /* Tabs */
+
+  "TabTopBackLeftMost": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/TabTopBackLeftMost"
+  },
+
+  "TabTopBack": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/TabTopBack"
+  },
+
+  "TabTopBackRightMost": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/TabTopBackRightMost"
+  },
+
+  "TabTopFrontLeftMost": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/TabTopFrontLeftMost"
+  },
+
+  "TabTopFront": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/TabTopFront"
+  },
+
+  "TabTopFrontRightMost": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/TabTopFrontRightMost"
+  },
+
+  /* Crafting Icons */
+
+  "icon_structures": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_structures"
+  },
+
+  "icon_tools": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_tools"
+  },
+
+  "icon_food": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_food"
+  },
+
+  "icon_armor": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_armor"
+  },
+
+  "icon_mechanisms": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_mechanisms"
+  },
+
+  "icon_transport": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_transport"
+  },
+
+  "icon_decorations": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_decorations"
+  },
+
+  /* Creative Icons */
+
+  "icon_redstone_and_transport": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_redstone_and_transport"
+  },
+
+  "icon_materials": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_materials"
+  },
+
+  "icon_brewing": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_brewing"
+  },
+
+  "icon_miscellaneous": {
+    "type": "image",
+    "size": [ 24, 24 ],
+    "texture": "textures/ui4jd/tab_icons/icon_miscellaneous"
+  },
+
+  /* Creative Scroll Box and Track */
+
+  "creative_scroll_box": {
+    "type": "image",
+    "size": [ 16, 16 ],
+    "texture": "textures/ui4jd/creative/creative_scroll_box"
+  },
+
+  "creative_scroll_track": {
+    "type": "image",
+    "texture": "textures/ui4jd/creative/creative_scroll_track"
+  },
+
+  /* Main buttons */
+
+  "main_button_default": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/main_button_default"
+  },
+
+  "main_button_hover": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/main_button_hover"
+  },
+
+  "main_button_locked": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/main_button_locked"
   }
 }

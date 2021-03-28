@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "description": "UI design ported by @CrisXolt. Original UI design by Julie \u0022Danger\u0022 Kennedy from 4J Studios.",
-    "name": "VDX: Project 4JD UI",
+    "description": "A museum resource pack about Legacy Console UI. UI design ported by @CrisXolt. Original UI design by Julie \u0022Danger\u0022 Kennedy from 4J Studios.",
+    "name": "VDX: Project 4JD UI Alpha v0.1",
     "uuid": "46ecca32-2323-4db3-8174-cf0a87b8e173",
-    "version": [0, 0, 1],
-    "min_engine_version": [1, 16, 100]
+    "version": [0, 1, 0],
+    "min_engine_version": [1, 16, 200]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "1ff7322d-f04c-4f54-9574-e3b2a2738ad9",
-      "version": [0, 0, 1]
+      "version": [0, 1, 0]
     }
   ]
 }

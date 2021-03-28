@@ -1,0 +1,91 @@
+/*File made by @CrisXolt.
+//(c) Don't use any code design without permission!*/
+{
+  "namespace": "creative_tab_pages",
+
+  /*//// Pages ////*/
+
+  "page_1@creative_items_common_4jd.creative_panel_content": {
+    "$panel_content": "$panel_content_page_1",
+    "$ignore_prev_button": true,
+    "$scroll_box_offset": [ 0, 0 ],
+    "$next_button_view_binding_name": "($category + '_page_2_button_toggle')",
+    "$next_toggle_name": "($category + '_page_1_2_tabs')",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_2_button_toggle')",
+        "source_property_name": "(not #toggle_state)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "page_2@creative_items_common_4jd.creative_panel_content": {
+    "$panel_content": "$panel_content_page_2",
+    "$scroll_box_offset": "$scroll_box_offset_page_2",
+    "$prev_button_view_binding_name": "($category + '_page_1_button_toggle')",
+    "$next_button_view_binding_name": "($category + '_page_3_button_toggle')",
+    "$prev_toggle_name": "($category + '_page_1_2_tabs')",
+    "$next_toggle_name": "($category + '_page_2_3_tabs')",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_3_button_toggle')",
+        "source_property_name": "(not #toggle_state)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "page_3@creative_items_common_4jd.creative_panel_content": {
+    "$panel_content": "$panel_content_page_3",
+    "$scroll_box_offset": "$scroll_box_offset_page_3",
+    "$prev_button_view_binding_name": "($category + '_page_2_button_toggle')",
+    "$next_button_view_binding_name": "($category + '_page_4_button_toggle')",
+    "$prev_toggle_name": "($category + '_page_2_3_tabs')",
+    "$next_toggle_name": "($category + '_page_3_4_tabs')",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_4_button_toggle')",
+        "source_property_name": "(not #toggle_state)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "page_4@creative_items_common_4jd.creative_panel_content": {
+    "$panel_content": "$panel_content_page_4",
+    "$scroll_box_offset": "$scroll_box_offset_page_4",
+    "$prev_button_view_binding_name": "($category + '_page_3_button_toggle')",
+    "$next_button_view_binding_name": "($category + '_page_5_button_toggle')",
+    "$prev_toggle_name": "($category + '_page_3_4_tabs')",
+    "$next_toggle_name": "($category + '_page_4_5_tabs')",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_5_button_toggle')",
+        "source_property_name": "(not #toggle_state)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "page_5@creative_items_common_4jd.creative_panel_content": {
+    "$panel_content": "$panel_content_page_5",
+    "$scroll_box_offset": [ 0, 121 ],
+    "$prev_button_view_binding_name": "($category + '_page_4_button_toggle')",
+    "$next_button_view_binding_name": "($category + '_page_6_button_toggle')",
+    "$prev_toggle_name": "($category + '_page_4_5_tabs')",
+    "$next_toggle_name": "($category + '_page_5_6_tabs')",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_6_button_toggle')",
+        "source_property_name": "(not #toggle_state)",
+        "target_property_name": "#visible"
+      }
+    ]
+  }
+}

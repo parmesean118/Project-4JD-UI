@@ -1,0 +1,409 @@
+{
+  "namespace": "creative_items_common_4jd",
+
+  
+  /*//// Button Tab ////*/
+
+  "page_tab@common_toggles_4jd.toggle_panel": {
+    "size": [ 16, 11 ],
+    "layer": 4,
+    "$is_custom_button": true
+  },
+
+  "prev_button@creative_items_common_4jd.page_tab": {
+    "$unchecked_control": "ui_4jd_textures.scroll_up",
+    "$checked_control": "ui_4jd_textures.scroll_up",
+    "$unchecked_hover_control": "ui_4jd_textures.scroll_up",
+    "$checked_hover_control": "ui_4jd_textures.scroll_up",
+
+    "$custom_from_button_id": "button.menu_alternate_tab_left",
+    "$custom_to_button_id": "button.menu_select"
+  },
+
+  "next_button@creative_items_common_4jd.page_tab": {
+    "$unchecked_control": "ui_4jd_textures.scroll_down",
+    "$checked_control": "ui_4jd_textures.scroll_down",
+    "$unchecked_hover_control": "ui_4jd_textures.scroll_down",
+    "$checked_hover_control": "ui_4jd_textures.scroll_down",
+
+    "$custom_from_button_id": "button.menu_alternate_tab_right",
+    "$custom_to_button_id": "button.menu_select"
+  },
+
+  /*//// Panels ////*/
+
+  "creative_panel_content": {
+    "type": "panel",
+    "$category|default": "default",
+    "$panel_content|default": "",
+    "$ignore_prev_button|default": false,
+    "$ignore_next_button|default": false,
+    "controls": [
+      {
+        "panel_content": {
+          "type": "panel",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 20, 27.5 ],
+          "size": [ 270, 135 ],
+          "controls": [
+            {
+              "content@$panel_content": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "creative_scroll_track@ui_4jd_textures.creative_scroll_track": {
+          "layer": 2,
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [ 12, 135 ],
+          "offset": [ -12.5, 27.5 ],
+          "propagate_alpha": true,
+          "alpha": "$scroll_bar_alpha",
+          "variables": [
+            {
+              "requires": "(not $1_page_only)",
+              "$scroll_bar_alpha": 1.0
+            },
+            {
+              "requires": "$1_page_only",
+              "$scroll_bar_alpha": 0.5
+            }
+          ],
+          "controls": [
+            {
+              "point": {
+                "type": "panel",
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [ -2, -1 ],
+                "controls": [
+                  {
+                    "creative_scroll_box@ui_4jd_textures.creative_scroll_box": {
+                      "layer": 3,
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": "$scroll_box_offset"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "prev_button@creative_items_common_4jd.prev_button": {
+          "ignored": "$ignore_prev_button",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "offset": [ -10.5, 15 ],
+          "$toggle_name": "$prev_toggle_name",
+          "$tab_view_binding_name": "$prev_button_view_binding_name",
+          "$toggle_group_forced_index": 0
+        }
+      },
+      {
+        "next_button@creative_items_common_4jd.next_button": {
+          "ignored": "$ignore_next_button",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "offset": [ -10.5, -37 ],
+          "$toggle_name": "$next_toggle_name",
+          "$tab_view_binding_name": "$next_button_view_binding_name",
+          "$toggle_group_forced_index": 1
+        }
+      }
+    ]
+  },
+
+  /*//// Panels ////*/
+
+  "grid_items_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ 270, 135 ],
+    "$item_01": [ 0, 1268 ],
+    "$item_02": [ 0, 1268 ],
+    "$item_03": [ 0, 1268 ],
+    "$item_04": [ 0, 1268 ],
+    "$item_05": [ 0, 1268 ],
+    "$item_06": [ 0, 1268 ],
+    "$item_07": [ 0, 1268 ],
+    "$item_08": [ 0, 1268 ],
+    "$item_09": [ 0, 1268 ],
+    "$item_10": [ 0, 1268 ],
+    "$item_11": [ 0, 1268 ],
+    "$item_12": [ 0, 1268 ],
+    "$item_13": [ 0, 1268 ],
+    "$item_14": [ 0, 1268 ],
+    "$item_15": [ 0, 1268 ],
+    "$item_16": [ 0, 1268 ],
+    "$item_17": [ 0, 1268 ],
+    "$item_18": [ 0, 1268 ],
+    "$item_19": [ 0, 1268 ],
+    "$item_20": [ 0, 1268 ],
+    "$item_21": [ 0, 1268 ],
+    "$item_22": [ 0, 1268 ],
+    "$item_23": [ 0, 1268 ],
+    "$item_24": [ 0, 1268 ],
+    "$item_25": [ 0, 1268 ],
+    "$item_26": [ 0, 1268 ],
+    "$item_27": [ 0, 1268 ],
+    "$item_28": [ 0, 1268 ],
+    "$item_29": [ 0, 1268 ],
+    "$item_30": [ 0, 1268 ],
+    "$item_31": [ 0, 1268 ],
+    "$item_32": [ 0, 1268 ],
+    "$item_33": [ 0, 1268 ],
+    "$item_34": [ 0, 1268 ],
+    "$item_35": [ 0, 1268 ],
+    "$item_36": [ 0, 1268 ],
+    "$item_37": [ 0, 1268 ],
+    "$item_38": [ 0, 1268 ],
+    "$item_39": [ 0, 1268 ],
+    "$item_40": [ 0, 1268 ],
+    "$item_41": [ 0, 1268 ],
+    "$item_42": [ 0, 1268 ],
+    "$item_43": [ 0, 1268 ],
+    "$item_44": [ 0, 1268 ],
+    "$item_45": [ 0, 1268 ],
+    "$item_46": [ 0, 1268 ],
+    "$item_47": [ 0, 1268 ],
+    "$item_48": [ 0, 1268 ],
+    "$item_49": [ 0, 1268 ],
+    "$item_50": [ 0, 1268 ],
+
+    "$size_24_item_01": false,
+    "$size_24_item_02": false,
+    "$size_24_item_03": false,
+    "$size_24_item_04": false,
+    "$size_24_item_05": false,
+    "$size_24_item_06": false,
+    "$size_24_item_07": false,
+    "$size_24_item_08": false,
+    "$size_24_item_09": false,
+    "$size_24_item_10": false,
+    "$size_24_item_11": false,
+    "$size_24_item_12": false,
+    "$size_24_item_13": false,
+    "$size_24_item_14": false,
+    "$size_24_item_15": false,
+    "$size_24_item_16": false,
+    "$size_24_item_17": false,
+    "$size_24_item_18": false,
+    "$size_24_item_19": false,
+    "$size_24_item_20": false,
+    "$size_24_item_21": false,
+    "$size_24_item_22": false,
+    "$size_24_item_23": false,
+    "$size_24_item_24": false,
+    "$size_24_item_25": false,
+    "$size_24_item_26": false,
+    "$size_24_item_27": false,
+    "$size_24_item_28": false,
+    "$size_24_item_29": false,
+    "$size_24_item_30": false,
+    "$size_24_item_31": false,
+    "$size_24_item_32": false,
+    "$size_24_item_33": false,
+    "$size_24_item_34": false,
+    "$size_24_item_35": false,
+    "$size_24_item_36": false,
+    "$size_24_item_37": false,
+    "$size_24_item_38": false,
+    "$size_24_item_39": false,
+    "$size_24_item_40": false,
+    "$size_24_item_41": false,
+    "$size_24_item_42": false,
+    "$size_24_item_43": false,
+    "$size_24_item_44": false,
+    "$size_24_item_45": false,
+    "$size_24_item_46": false,
+    "$size_24_item_47": false,
+    "$size_24_item_48": false,
+    "$size_24_item_49": false,
+    "$size_24_item_50": false,
+    "controls": [
+      { 
+        "01@creative_items_common_4jd.item_grid_rows": {
+          "$row_01": "$item_01",
+          "$row_02": "$item_02",
+          "$row_03": "$item_03",
+          "$row_04": "$item_04",
+          "$row_05": "$item_05",
+          "$row_06": "$item_06",
+          "$row_07": "$item_07",
+          "$row_08": "$item_08",
+          "$row_09": "$item_09",
+          "$row_10": "$item_10",
+
+          "$size_24_row_01": "$size_24_item_01",
+          "$size_24_row_02": "$size_24_item_02",
+          "$size_24_row_03": "$size_24_item_03",
+          "$size_24_row_04": "$size_24_item_04",
+          "$size_24_row_05": "$size_24_item_05",
+          "$size_24_row_06": "$size_24_item_06",
+          "$size_24_row_07": "$size_24_item_07",
+          "$size_24_row_08": "$size_24_item_08",
+          "$size_24_row_09": "$size_24_item_09",
+          "$size_24_row_10": "$size_24_item_10"
+        }
+      },
+      { 
+        "02@creative_items_common_4jd.item_grid_rows": {
+          "$row_01": "$item_11",
+          "$row_02": "$item_12",
+          "$row_03": "$item_13",
+          "$row_04": "$item_14",
+          "$row_05": "$item_15",
+          "$row_06": "$item_16",
+          "$row_07": "$item_17",
+          "$row_08": "$item_18",
+          "$row_09": "$item_19",
+          "$row_10": "$item_20",
+
+          "$size_24_row_01": "$size_24_item_11",
+          "$size_24_row_02": "$size_24_item_12",
+          "$size_24_row_03": "$size_24_item_13",
+          "$size_24_row_04": "$size_24_item_14",
+          "$size_24_row_05": "$size_24_item_15",
+          "$size_24_row_06": "$size_24_item_16",
+          "$size_24_row_07": "$size_24_item_17",
+          "$size_24_row_08": "$size_24_item_18",
+          "$size_24_row_09": "$size_24_item_19",
+          "$size_24_row_10": "$size_24_item_20"
+        }
+      },
+      { 
+        "03@creative_items_common_4jd.item_grid_rows": {
+          "$row_01": "$item_21",
+          "$row_02": "$item_22",
+          "$row_03": "$item_23",
+          "$row_04": "$item_24",
+          "$row_05": "$item_25",
+          "$row_06": "$item_26",
+          "$row_07": "$item_27",
+          "$row_08": "$item_28",
+          "$row_09": "$item_29",
+          "$row_10": "$item_30",
+
+          "$size_24_row_01": "$size_24_item_21",
+          "$size_24_row_02": "$size_24_item_22",
+          "$size_24_row_03": "$size_24_item_23",
+          "$size_24_row_04": "$size_24_item_24",
+          "$size_24_row_05": "$size_24_item_25",
+          "$size_24_row_06": "$size_24_item_26",
+          "$size_24_row_07": "$size_24_item_27",
+          "$size_24_row_08": "$size_24_item_28",
+          "$size_24_row_09": "$size_24_item_29",
+          "$size_24_row_10": "$size_24_item_30"
+        }
+      },
+      { 
+        "04@creative_items_common_4jd.item_grid_rows": {
+          "$row_01": "$item_31",
+          "$row_02": "$item_32",
+          "$row_03": "$item_33",
+          "$row_04": "$item_34",
+          "$row_05": "$item_35",
+          "$row_06": "$item_36",
+          "$row_07": "$item_37",
+          "$row_08": "$item_38",
+          "$row_09": "$item_39",
+          "$row_10": "$item_40",
+
+          "$size_24_row_01": "$size_24_item_31",
+          "$size_24_row_02": "$size_24_item_32",
+          "$size_24_row_03": "$size_24_item_33",
+          "$size_24_row_04": "$size_24_item_34",
+          "$size_24_row_05": "$size_24_item_35",
+          "$size_24_row_06": "$size_24_item_36",
+          "$size_24_row_07": "$size_24_item_37",
+          "$size_24_row_08": "$size_24_item_38",
+          "$size_24_row_09": "$size_24_item_39",
+          "$size_24_row_10": "$size_24_item_40"
+        }
+      },
+      { 
+        "05@creative_items_common_4jd.item_grid_rows": {
+          "$row_01": "$item_41",
+          "$row_02": "$item_42",
+          "$row_03": "$item_43",
+          "$row_04": "$item_44",
+          "$row_05": "$item_45",
+          "$row_06": "$item_46",
+          "$row_07": "$item_47",
+          "$row_08": "$item_48",
+          "$row_09": "$item_49",
+          "$row_10": "$item_50",
+
+          "$size_24_row_01": "$size_24_item_41",
+          "$size_24_row_02": "$size_24_item_42",
+          "$size_24_row_03": "$size_24_item_43",
+          "$size_24_row_04": "$size_24_item_44",
+          "$size_24_row_05": "$size_24_item_45",
+          "$size_24_row_06": "$size_24_item_46",
+          "$size_24_row_07": "$size_24_item_47",
+          "$size_24_row_08": "$size_24_item_48",
+          "$size_24_row_09": "$size_24_item_49",
+          "$size_24_row_10": "$size_24_item_50"
+        }
+      }
+    ]
+  },
+
+  "item_grid_rows": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ 270, 27 ],
+    "controls": [
+      { "row_01@creative_items_common_4jd.grid_item": { "$grid_position": "$row_01", "$item_size_24": "$size_24_row_01" } },
+      { "row_02@creative_items_common_4jd.grid_item": { "$grid_position": "$row_02", "$item_size_24": "$size_24_row_02" } },
+      { "row_03@creative_items_common_4jd.grid_item": { "$grid_position": "$row_03", "$item_size_24": "$size_24_row_03" } },
+      { "row_04@creative_items_common_4jd.grid_item": { "$grid_position": "$row_04", "$item_size_24": "$size_24_row_04" } },
+      { "row_05@creative_items_common_4jd.grid_item": { "$grid_position": "$row_05", "$item_size_24": "$size_24_row_05" } },
+      { "row_06@creative_items_common_4jd.grid_item": { "$grid_position": "$row_06", "$item_size_24": "$size_24_row_06" } },
+      { "row_07@creative_items_common_4jd.grid_item": { "$grid_position": "$row_07", "$item_size_24": "$size_24_row_07" } },
+      { "row_08@creative_items_common_4jd.grid_item": { "$grid_position": "$row_08", "$item_size_24": "$size_24_row_08" } },
+      { "row_09@creative_items_common_4jd.grid_item": { "$grid_position": "$row_09", "$item_size_24": "$size_24_row_09" } },
+      { "row_10@creative_items_common_4jd.grid_item": { "$grid_position": "$row_10", "$item_size_24": "$size_24_row_10" } }
+    ]
+  },
+  
+  "grid_item@common_4jd.grid_panel": {
+    "size": [ 27, 27 ],
+    "$grid_dimensions": [ 1, 1270 ],
+    "$collection_name": "recipe_book",
+    "variables": [
+      {
+        "requires": "(not $item_size_24)",
+        "$grid_item_template": "creative_items_common_4jd.grid_item_for_creative"
+      },
+      {
+        "requires": "$item_size_24",
+        "$grid_item_template": "creative_items_common_4jd.grid_item_for_creative_alt"
+      }
+    ]
+  },
+
+  "grid_item_for_creative@crafting.grid_item_for_recipe_book": {
+    "size": [ 27, 27 ],
+    "$background_images": "common.empty_panel",
+    "$highlight_control": "common_4jd.highlight_slot_panel",
+    "$container_item_size": [ 27, 27 ],
+    "$cell_image_size": [ 27, 27 ],
+    "$item_renderer_panel_size": [ 27, 27 ],
+    "$item_renderer_size": [ 22, 22 ],
+    "$stack_count_control": "common.empty_panel"
+  },
+
+  "grid_item_for_creative_alt@creative_items_common_4jd.grid_item_for_creative": {
+    "$item_renderer_size": [ 24, 24 ]
+  }
+}

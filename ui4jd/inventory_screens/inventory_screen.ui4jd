@@ -1,0 +1,20 @@
+{
+  "namespace": "inventory_4jd",
+
+  "inventory_screen_content@common_4jd.center_screen": {
+    "controls": [
+      { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
+      { "creatvie_panel@creative_4jd.creatvie_panel": { } },
+      {
+        "debug_grid_scroll_panel@crafting.scroll_panel": {
+          "ignored": true,
+          "size": [ 70, "100%" ],
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "$scrolling_content": "test_component_4jd.scroll_grid_panel",
+          "$collection_name": "recipe_book"
+        }
+      }
+    ]
+  }
+}

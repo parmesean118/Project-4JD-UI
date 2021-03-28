@@ -1,0 +1,21 @@
+##  Start
+4jd.menu.play=Play Game
+4jd.menu.store=Minecraft Marketplace
+
+##  Crafting
+4jd.craftingScreen.enableRecipe=Enable Recipe Book
+
+4jd.craftingScreen.tab.structures=Structures
+4jd.craftingScreen.tab.tools=Tools and Weapons
+4jd.craftingScreen.tab.food=Food
+4jd.craftingScreen.tab.armor=Armor
+4jd.craftingScreen.tab.mechanisms=Mechanisms
+4jd.craftingScreen.tab.transport=Transport
+4jd.craftingScreen.tab.decorations=Decorations
+
+4jd.creativeScreen.tab.buildingBlocks=Building Blocks
+4jd.creativeScreen.tab.redstone_and_transport=Redstone & Transportation
+4jd.creativeScreen.tab.materials=Materials
+4jd.creativeScreen.tab.toolsWeaponsAndArmor=Tools, Weapons & Armor
+4jd.creativeScreen.tab.brewing=Brewing
+4jd.creativeScreen.tab.miscellaneous=Miscellaneous

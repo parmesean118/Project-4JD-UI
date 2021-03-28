@@ -1,0 +1,48 @@
+{
+  "namespace": "creative_food_4jd",
+
+  "food_items_page_1@creative_items_common_4jd.grid_items_panel": {
+    "$item_01": [ 0, 412 ], // Apple
+    "$item_02": [ 0, 413 ], // Golden Apple
+    "$item_03": [ 0, 414 ], // Enchanted Golden Apple
+    "$item_04": [ 0, 416 ], // Melon
+    "$item_05": [ 0, 724 ], // Mushroom Stew
+    "$item_06": [ 0, 726 ], // Rabbit Stew
+    "$item_07": [ 0, 725 ], // Beetroot Stew
+    "$item_08": [ 0, 723 ], // Bread
+    "$item_09": [ 0, 730 ], // Cake
+    "$item_10": [ 0, 728 ], // Cookie
+
+    "$item_11": [ 0, 721 ], // Cooked Cod
+    "$item_12": [ 0, 505 ], // Raw Cod
+    "$item_13": [ 0, 722 ], // Cooked Salmon
+    "$item_14": [ 0, 506 ], // Raw Salmon
+    "$item_15": [ 0, 507 ], // Tropical Fish
+    "$item_16": [ 0, 508 ], // Pufferfish
+    "$item_17": [ 0, 717 ], // Cooked Porkchop
+    "$item_18": [ 0, 501 ], // Raw Porkchop
+    "$item_19": [ 0, 718 ], // Cooked Beef
+    "$item_20": [ 0, 502 ], // Raw Beef
+
+    "$item_21": [ 0, 716 ], // Cooked Chicken
+    "$item_22": [ 0, 500 ], // Raw Chicken
+    "$item_23": [ 0, 719 ], // Cooked Mutton
+    "$item_24": [ 0, 503 ], // Raw Mutton
+    "$item_25": [ 0, 720 ], // Cooked Rabbit
+    "$item_26": [ 0, 504 ], // Raw Rabbit
+    "$item_27": [ 0, 520 ], // Rotten Flesh
+    "$item_28": [ 0, 523 ], // Spider Eye
+    "$item_29": [ 0, 408 ], // Potato
+    "$item_30": [ 0, 727 ], // Baked Potato
+
+    "$item_31": [ 0, 409 ], // Poisonous Potato
+    "$item_32": [ 0, 410 ], // Carrot
+    "$item_33": [ 0, 411 ], // Golden Carrot
+    "$item_34": [ 0, 729 ], // Pumpkin Pie
+    "$item_35": [ 0, 407 ], // Beetroot
+    "$item_36": [ 0, 606 ], // Chorus Fruit
+    "$item_37": [ 0, 731 ], // Dried Kelp
+    "$item_38": [ 0, 418 ], // Sweet Berries
+    "$item_39": [ 0, 977 ]  // Honey Bottle
+  }
+}

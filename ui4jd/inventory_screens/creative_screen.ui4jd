@@ -1,0 +1,124 @@
+{
+  "namespace": "creative_4jd",
+
+  "test_grid_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 20, 27.5 ],
+    "size": [ 27, 27 ],
+    "clips_children": true,
+    //"$desired_item_id_aux": 33554432,
+    "layer": 10,
+
+    "controls": [
+      { 
+        "grid@crafting.scroll_grid": { 
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$collection_name": "recipe_book",
+          "$grid_item_template": "creative_4jd.grid_item_for_creative"
+        }
+      }
+    ]
+  },
+
+  "grid_item_for_creative@common.item_renderer": {
+    "layer": -10,
+    "size": [ 0.0001, 0.0001 ],
+    "$item_collection_name": "$collection_name",
+    "$highlight_control": "common_4jd.highlight_slot_panel",
+    "bindings": [
+      {
+        "binding_name": "(#item_id_aux = $desired_item_id_aux)",
+        "binding_name_override": "#visible",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      }
+    ],
+    "controls": [
+      {
+        "item_button_ref@crafting.creative_no_coalesce_container_slot_button": {
+          "size": [ 27, 27 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 5
+        }
+      },
+      { 
+        "item_renderer@common.item_renderer": {
+          "layer": 16,
+          "offset": [ 1.5, 1.5 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 24, 24 ]
+        }
+      }
+    ]
+  },
+  
+  /* "s_grid_item_for_creative@crafting.grid_item_for_recipe_book": {
+    "size": [ 27, 27 ],
+    "property_bag": {
+      "#item_id_aux": "$new_item_id_aux"
+    },
+
+    "$background_images": "ui_4jd_textures.cell_image_1_5",
+    "$highlight_control": "common_4jd.highlight_slot_panel",
+    "$container_item_size": [ 27, 27 ],
+    "$cell_image_size": [ 27, 27 ],
+    "$item_renderer_panel_size": [ 27, 27 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$stack_count_control": "common_4jd.stack_count_label_24",
+
+    "bindings": [
+      {
+        "binding_name": "(#item_id_aux = $desired_item_id_aux)",
+        "binding_name_override": "#visible",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      }
+    ]
+  }, */
+
+  "creative_panel_content@common_4jd.root_panel": {
+    "size": [ 321.5, 212 ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "controls": [
+      //{ "test_grid_panel@creative_4jd.test_grid_panel": { } },
+      { "creative_panel_content@creative_tabs_4jd.creative_panel_content": { } },
+      { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } },
+      {
+        "hotbar_grid@common.hotbar_grid_template": {
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "offset": [ 33.5, -10.5 ],
+          "layer": 2,
+
+          "size": [ 243, 27 ],
+          "$background_images": "ui_4jd_textures.cell_image_1_5",
+          "$highlight_control": "common_4jd.highlight_slot_panel",
+          "$container_item_size": [ 27, 27 ],
+          "$cell_image_size": [ 27, 27 ],
+          "$item_renderer_panel_size": [ 27, 27 ],
+          "$item_renderer_size": [ 24, 24 ],
+          "$stack_count_control": "common_4jd.stack_count_label_24",
+
+          "$button_ref": "crafting.creative_hotbar_container_slot_button"
+        }
+      }
+    ]
+  },
+
+  "creatvie_panel": {
+    "type": "panel",
+    "size": [ 321.5, 245 ],
+    "controls": [
+      { "creative_tabs_panel@creative_tabs_4jd.creative_tabs_panel": { } },
+      { "creative_panel_content@creative_4jd.creative_panel_content": { } },
+      { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
+      { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+    ]
+  }
+}

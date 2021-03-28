@@ -61,10 +61,10 @@
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "size": [ 22, 22 ],
-    "layer": 5,
+    "layer": 4,
     "controls": [
-      { "toggle_button@beacon_4jd.toggle_button": { "layer": 4 } },
-      { "image_control@$image_control": { "layer": 4 } }
+      { "toggle_button@beacon_4jd.toggle_button": { "layer": 5 } },
+      { "image_control@$image_control": { "layer": 6 } }
     ],
     "bindings": [
       {
@@ -86,14 +86,14 @@
     "$is_effect_buttons": true,
     "controls": [
       {
-        "recessed_content_left@ui_4jd_textures.panel_content_1_5": {
+        "panel_content_left@ui_4jd_textures.panel_content_1_5": {
           "layer": 2,
           "size": [ 119.5, "100%" ],
           "$image_control": "beacon.image_template",
           "controls": [
             /*//// Label ////*/
             {
-              "primary_power_label@beacon.beacon_label": {
+              "primary_power_label@common_4jd.global_label": {
                 "layer": 4,
                 "shadow": false,
                 "color": "$title_text_color",
@@ -177,7 +177,7 @@
           "controls": [
             /*//// Label ////*/
             {
-              "secondary_power_label@beacon.beacon_label": {
+              "secondary_power_label@common_4jd.global_label": {
                 "layer": 4,
                 "shadow": false,
                 "color": "$title_text_color",
@@ -328,6 +328,7 @@
   "beacon_screen_content@common_4jd.center_screen": {
     "controls": [
       { "beacon_panel@beacon_4jd.beacon_panel": { } },
+      { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
       { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
     ]
