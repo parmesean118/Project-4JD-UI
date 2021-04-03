@@ -74,7 +74,7 @@
 
   "page_5@creative_items_common_4jd.creative_panel_content": {
     "$panel_content": "$panel_content_page_5",
-    "$scroll_box_offset": [ 0, 121 ],
+    "$scroll_box_offset": "$scroll_box_offset_page_5",
     "$prev_button_view_binding_name": "($category + '_page_4_button_toggle')",
     "$next_button_view_binding_name": "($category + '_page_6_button_toggle')",
     "$prev_toggle_name": "($category + '_page_4_5_tabs')",
@@ -83,6 +83,23 @@
       {
         "binding_type": "view",
         "source_control_name": "($category + '_page_6_button_toggle')",
+        "source_property_name": "(not #toggle_state)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "page_6@creative_items_common_4jd.creative_panel_content": {
+    "$panel_content": "$panel_content_page_6",
+    "$scroll_box_offset": [ 0, 121 ],
+    "$prev_button_view_binding_name": "($category + '_page_5_button_toggle')",
+    "$next_button_view_binding_name": "($category + '_page_7_button_toggle')",
+    "$prev_toggle_name": "($category + '_page_5_6_tabs')",
+    "$next_toggle_name": "($category + '_page_6_7_tabs')",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_7_button_toggle')",
         "source_property_name": "(not #toggle_state)",
         "target_property_name": "#visible"
       }

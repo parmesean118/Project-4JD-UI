@@ -67,6 +67,7 @@
 
   "page_5": {
     "type": "panel",
+    "$5_pages_only|default": false,
     "bindings": [
       {
         "binding_type": "view",
@@ -76,7 +77,23 @@
       }
     ],
     "controls": [
-      { "page_5@creative_tab_pages.page_5": { "$ignore_next_button": true  } }
+      { "page_5@creative_tab_pages.page_5": { "$ignore_next_button": "$5_pages_only"  } },
+      { "page_6@creative_pages_panels.page_6": { "ignored": "$5_pages_only" } }
+    ]
+  },
+
+  "page_6": {
+    "type": "panel",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_6_button_toggle')",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "page_6@creative_tab_pages.page_6": { "$ignore_next_button": true  } }
     ]
   }
 }

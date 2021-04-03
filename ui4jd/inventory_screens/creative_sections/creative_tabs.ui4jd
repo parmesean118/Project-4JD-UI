@@ -169,6 +169,7 @@
           "$scroll_box_offset_page_2": [ 0, 30 ],
           "$scroll_box_offset_page_3": [ 0, 60 ],
           "$scroll_box_offset_page_4": [ 0, 90 ],
+          "$scroll_box_offset_page_5": [ 0, 121 ],
           "$5_pages_only": true,
           "$panel_content_page_1": "creative_building_blocks_4jd.building_blocks_items_page_1",
           "$panel_content_page_2": "creative_building_blocks_4jd.building_blocks_items_page_2",
@@ -183,14 +184,16 @@
       { 
         "decorations_panel_content@creative_tabs_4jd.panel_content": {
           "$category": "decorations",
-          "$scroll_box_offset_page_2": [ 0, 30 ],
-          "$scroll_box_offset_page_3": [ 0, 60 ],
-          "$scroll_box_offset_page_4": [ 0, 90 ],
+          "$scroll_box_offset_page_2": [ 0, 24 ],
+          "$scroll_box_offset_page_3": [ 0, 48 ],
+          "$scroll_box_offset_page_4": [ 0, 72 ],
+          "$scroll_box_offset_page_5": [ 0, 96 ],
           "$panel_content_page_1": "creative_decorations_4jd.decorations_items_page_1",
           "$panel_content_page_2": "creative_decorations_4jd.decorations_items_page_2",
           "$panel_content_page_3": "creative_decorations_4jd.decorations_items_page_3",
           "$panel_content_page_4": "creative_decorations_4jd.decorations_items_page_4",
           "$panel_content_page_5": "creative_decorations_4jd.decorations_items_page_5",
+          "$panel_content_page_6": "creative_decorations_4jd.decorations_items_page_6",
           "$category_text": "4jd.craftingScreen.tab.decorations",
           "$tab_binding_name": "decorations_tab_toggle",
           "$category_panel_content": "creative_pages_panels.creative_tab_pages"

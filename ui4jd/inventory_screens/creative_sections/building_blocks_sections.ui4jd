@@ -2,287 +2,287 @@
   "namespace": "creative_building_blocks_4jd",
 
   "building_blocks_items_page_1@creative_items_common_4jd.grid_items_panel": {
-    "$item_01": [ 0, 1268 ], // Stone
-    "$item_02": [ 0, 1268 ], // Grass Block
-    "$item_03": [ 0, 1268 ], // Grass (Dirth) Path Block
-    "$item_04": [ 0, 1268 ], // Dirt
-    "$item_05": [ 0, 1268 ], // Cobblestone
-    "$item_06": [ 0, 1268 ], // Smooth Stone
-    "$item_07": [ 0, 1268 ], // Sand
-    "$item_08": [ 0, 1268 ], // Sandstone
-    "$item_09": [ 0, 1268 ], // Smooth Sandstone
-    "$item_10": [ 0, 1268 ], // Chiseled Sandstone
+    "$item_01": [ 0,  334 ], // Stone
+    "$item_02": [ 0,  330 ], // Grass Block
+    "$item_03": [ 0,  331 ], // Grass (Dirth) Path Block
+    "$item_04": [ 0,  327 ], // Dirt
+    "$item_05": [ 0,  186 ], // Cobblestone
+    "$item_06": [ 0,  188 ], // Smooth Stone
+    "$item_07": [ 0,  354 ], // Sand
+    "$item_08": [ 0,  189 ], // Sandstone
+    "$item_09": [ 0,  192 ], // Smooth Sandstone
+    "$item_10": [ 0,  190 ], // Chiseled Sandstone
 
-    "$item_11": [ 0, 1268 ], // Cut Sandstone
-    "$item_12": [ 0, 1268 ], // Red Sand
-    "$item_13": [ 0, 1268 ], // Red Sandstone
-    "$item_14": [ 0, 1268 ], // Smooth Red Sandstone
-    "$item_15": [ 0, 1268 ], // Chiseled Red Sandstone
-    "$item_16": [ 0, 1268 ], // Cut Red Sandstone
-    "$item_17": [ 0, 1268 ], // Granite
-    "$item_18": [ 0, 1268 ], // Polished Granite
-    "$item_19": [ 0, 1268 ], // Andesite
-    "$item_20": [ 0, 1268 ], // Polished Andesite
+    "$item_11": [ 0,  191 ], // Cut Sandstone
+    "$item_12": [ 0,  355 ], // Red Sand
+    "$item_13": [ 0,  193 ], // Red Sandstone
+    "$item_14": [ 0,  196 ], // Smooth Red Sandstone
+    "$item_15": [ 0,  194 ], // Chiseled Red Sandstone
+    "$item_16": [ 0,  195 ], // Cut Red Sandstone
+    "$item_17": [ 0,  346 ], // Granite
+    "$item_18": [ 0,  350 ], // Polished Granite
+    "$item_19": [ 0,  348 ], // Andesite
+    "$item_20": [ 0,  352 ], // Polished Andesite
 
-    "$item_21": [ 0, 1268 ], // Diorite
-    "$item_22": [ 0, 1268 ], // Polished Diorite
-    "$item_23": [ 0, 1268 ], // Block of Coal
-    "$item_24": [ 0, 1268 ], // Dried Kelp Block
-    "$item_25": [ 0, 1268 ], // Block of Gold
-    "$item_26": [ 0, 1268 ], // Block of Iron
-    "$item_27": [ 0, 1268 ], // Block of Lapis Lazuli
-    "$item_28": [ 0, 1268 ], // Block of Diamond
-    "$item_29": [ 0, 1268 ], // Block of Emerald
-    "$item_30": [ 0, 1268 ], // Block of Quartz
+    "$item_21": [ 0,  347 ], // Diorite
+    "$item_22": [ 0,  351 ], // Polished Diorite
+    "$item_23": [ 0,  197 ], // Block of Coal
+    "$item_24": [ 0,  198 ], // Dried Kelp Block
+    "$item_25": [ 0,  199 ], // Block of Gold
+    "$item_26": [ 0,  200 ], // Block of Iron
+    "$item_27": [ 0,  203 ], // Block of Lapis Lazuli
+    "$item_28": [ 0,  202 ], // Block of Diamond
+    "$item_29": [ 0,  201 ], // Block of Emerald
+    "$item_30": [ 0,  204 ], // Block of Quartz
 
-    "$item_31": [ 0, 1268 ], // Block of Netherite
-    "$item_32": [ 0, 1268 ], // Coal Ore
-    "$item_33": [ 0, 1268 ], // Lapis Lazuli Ore
-    "$item_34": [ 0, 1268 ], // Diamond Ore
-    "$item_35": [ 0, 1268 ], // Redstone Ore
-    "$item_36": [ 0, 1268 ], // Iron Ore
-    "$item_37": [ 0, 1268 ], // Gold Ore
-    "$item_38": [ 0, 1268 ], // Emerald Ore
-    "$item_39": [ 0, 1268 ], // Nether Quartz Ore
-    "$item_40": [ 0, 1268 ], // Nether Gold Ore
+    "$item_31": [ 0,  217 ], // Block of Netherite
+    "$item_32": [ 0,  340 ], // Coal Ore
+    "$item_33": [ 0,  338 ], // Lapis Lazuli Ore
+    "$item_34": [ 0,  337 ], // Diamond Ore
+    "$item_35": [ 0,  339 ], // Redstone Ore
+    "$item_36": [ 0,  335 ], // Iron Ore
+    "$item_37": [ 0,  336 ], // Gold Ore
+    "$item_38": [ 0,  341 ], // Emerald Ore
+    "$item_39": [ 0,  342 ], // Nether Quartz Ore
+    "$item_40": [ 0,  343 ], // Nether Gold Ore
 
-    "$item_41": [ 0, 1268 ], // Ancient Debris
-    "$item_42": [ 0, 1268 ], // Nether Wart Block
-    "$item_43": [ 0, 1268 ], // Warped Wart Block
-    "$item_44": [ 0, 1268 ], // Bedrock
-    "$item_45": [ 0, 1268 ], // Oak Planks
-    "$item_46": [ 0, 1268 ], // Spruce Planks
-    "$item_47": [ 0, 1268 ], // Birch Planks
-    "$item_48": [ 0, 1268 ], // Jungle Planks
-    "$item_49": [ 0, 1268 ], // Acacia Planks
-    "$item_50": [ 0, 1268 ]  // Dark Oak Planks
+    "$item_41": [ 0,  344 ], // Ancient Debris
+    "$item_42": [ 0,  319 ], // Nether Wart Block
+    "$item_43": [ 0,  320 ], // Warped Wart Block
+    "$item_44": [ 0,  598 ], // Bedrock
+    "$item_45": [ 0,    0 ], // Oak Planks
+    "$item_46": [ 0,    1 ], // Spruce Planks
+    "$item_47": [ 0,    2 ], // Birch Planks
+    "$item_48": [ 0,    3 ], // Jungle Planks
+    "$item_49": [ 0,    4 ], // Acacia Planks
+    "$item_50": [ 0,    5 ]  // Dark Oak Planks
   },
 
   "building_blocks_items_page_2@creative_items_common_4jd.grid_items_panel": {
-    "$item_01": [ 0, 1268 ], // Crimson Planks
-    "$item_02": [ 0, 1268 ], // Warped Planks
-    "$item_03": [ 0, 1268 ], // Oak Log
-    "$item_04": [ 0, 1268 ], // Spruce Log
-    "$item_05": [ 0, 1268 ], // Birch Log
-    "$item_06": [ 0, 1268 ], // Jungle Log
-    "$item_07": [ 0, 1268 ], // Acacia Log
-    "$item_08": [ 0, 1268 ], // Dark Oak Log
-    "$item_09": [ 0, 1268 ], // Crimson Stem
-    "$item_10": [ 0, 1268 ], // Warped Stem
+    "$item_01": [ 0,    6 ], // Crimson Planks
+    "$item_02": [ 0,    7 ], // Warped Planks
+    "$item_03": [ 0,  357 ], // Oak Log
+    "$item_04": [ 0,  359 ], // Spruce Log
+    "$item_05": [ 0,  361 ], // Birch Log
+    "$item_06": [ 0,  363 ], // Jungle Log
+    "$item_07": [ 0,  365 ], // Acacia Log
+    "$item_08": [ 0,  367 ], // Dark Oak Log
+    "$item_09": [ 0,  369 ], // Crimson Stem
+    "$item_10": [ 0,  371 ], // Warped Stem
 
-    "$item_11": [ 0, 1268 ], // Stripped Oak Log
-    "$item_12": [ 0, 1268 ], // Stripped Spruce Log
-    "$item_13": [ 0, 1268 ], // Stripped Birch Log
-    "$item_14": [ 0, 1268 ], // Stripped Jungle Log
-    "$item_15": [ 0, 1268 ], // Stripped Acacia Log
-    "$item_16": [ 0, 1268 ], // Stripped Dark Oak Log
-    "$item_17": [ 0, 1268 ], // Stripped Crimson Stem
-    "$item_18": [ 0, 1268 ], // Stripped Warped Stem
-    "$item_19": [ 0, 1268 ], // Gravel
-    "$item_20": [ 0, 1268 ], // Brick
+    "$item_11": [ 0,  358 ], // Stripped Oak Log
+    "$item_12": [ 0,  360 ], // Stripped Spruce Log
+    "$item_13": [ 0,  362 ], // Stripped Birch Log
+    "$item_14": [ 0,  364 ], // Stripped Jungle Log
+    "$item_15": [ 0,  366 ], // Stripped Acacia Log
+    "$item_16": [ 0,  368 ], // Stripped Dark Oak Log
+    "$item_17": [ 0,  370 ], // Stripped Crimson Stem
+    "$item_18": [ 0,  372 ], // Stripped Warped Stem
+    "$item_19": [ 0,  345 ], // Gravel
+    "$item_20": [ 0,  172 ], // Brick
 
-    "$item_21": [ 0, 1268 ], // Mossy Cobblestone
-    "$item_22": [ 0, 1268 ], // Obsidian
-    "$item_23": [ 0, 1268 ], // Clay
-    "$item_24": [ 0, 1268 ], // Ice
-    "$item_25": [ 0, 1268 ], // Packet Ice
-    "$item_26": [ 0, 1268 ], // Blue Ice
-    "$item_27": [ 0, 1268 ], // Snow
-    "$item_28": [ 0, 1268 ], // Netherrack
-    "$item_29": [ 0, 1268 ], // Crimson Nylium
-    "$item_30": [ 0, 1268 ], // Warped Nylium
+    "$item_21": [ 0,  187 ], // Mossy Cobblestone
+    "$item_22": [ 0,  596 ], // Obsidian
+    "$item_23": [ 0,  283 ], // Clay Block
+    "$item_24": [ 0,  496 ], // Ice
+    "$item_25": [ 0,  497 ], // Packet Ice
+    "$item_26": [ 0,  498 ], // Blue Ice
+    "$item_27": [ 0,  495 ], // Snow
+    "$item_28": [ 0,  600 ], // Netherrack
+    "$item_29": [ 0,  322 ], // Crimson Nylium
+    "$item_30": [ 0,  323 ], // Warped Nylium
 
-    "$item_31": [ 0, 1268 ], // Soul Sand
-    "$item_32": [ 0, 1268 ], // Soul Soil
-    "$item_33": [ 0, 1268 ], // 
-    "$item_34": [ 0, 1268 ], // 
-    "$item_35": [ 0, 1268 ], // 
-    "$item_36": [ 0, 1268 ], // 
-    "$item_37": [ 0, 1268 ], // 
-    "$item_38": [ 0, 1268 ], // 
-    "$item_39": [ 0, 1268 ], // 
-    "$item_40": [ 0, 1268 ], // 
+    "$item_31": [ 0,  599 ], // Soul Sand
+    "$item_32": [ 0,  326 ], // Soul Soil
+    "$item_33": [ 0,  964 ], // Glowstone
+    "$item_34": [ 0,  601 ], // Magma Block
+    "$item_35": [ 0,  966 ], // Sea lantern
+    "$item_36": [ 0,  208 ], // Prismarine
+    "$item_37": [ 0,  181 ], // Prismarine Bricks
+    "$item_38": [ 0,  209 ], // Dark Prismarine
+    "$item_39": [ 0,  210 ], // Block of Slime
+    "$item_40": [ 0,   25 ], // Oak Fence
     
-    "$item_41": [ 0, 1268 ], // 
-    "$item_42": [ 0, 1268 ], // 
-    "$item_43": [ 0, 1268 ], // 
-    "$item_44": [ 0, 1268 ], // 
-    "$item_45": [ 0, 1268 ], // 
-    "$item_46": [ 0, 1268 ], // 
-    "$item_47": [ 0, 1268 ], // 
-    "$item_48": [ 0, 1268 ], // 
-    "$item_49": [ 0, 1268 ], // 
-    "$item_50": [ 0, 1268 ]  // 
+    "$item_41": [ 0,   26 ], // Spruce Fence
+    "$item_42": [ 0,   27 ], // Birch Fence
+    "$item_43": [ 0,   28 ], // Jungle Fence
+    "$item_44": [ 0,   29 ], // Acacia Fence
+    "$item_45": [ 0,   30 ], // Dark Oak Fence
+    "$item_46": [ 0,   32 ], // Crimson Fence
+    "$item_47": [ 0,   33 ], // Warped Fence
+    "$item_48": [ 0,   31 ], // Nether Brick Fence
+    "$item_49": [ 0,   96 ], // Iron Bars
+    "$item_50": [ 0,  176 ]  // Stone Bricks
   },
 
   "building_blocks_items_page_3@creative_items_common_4jd.grid_items_panel": {
-    "$item_01": [ 0, 1268 ], // 
-    "$item_02": [ 0, 1268 ], // 
-    "$item_03": [ 0, 1268 ], // 
-    "$item_04": [ 0, 1268 ], // 
-    "$item_05": [ 0, 1268 ], // 
-    "$item_06": [ 0, 1268 ], // 
-    "$item_07": [ 0, 1268 ], // 
-    "$item_08": [ 0, 1268 ], // 
-    "$item_09": [ 0, 1268 ], // 
-    "$item_10": [ 0, 1268 ], // 
+    "$item_01": [ 0,  177 ], // Mossy Stone Bricks
+    "$item_02": [ 0,  178 ], // Cracked Stone Bricks
+    "$item_03": [ 0,  179 ], // Chiseled Stone Bricks
+    "$item_04": [ 0,  525 ], // Infested Stone
+    "$item_05": [ 0,  526 ], // Infested Cobblestone
+    "$item_06": [ 0,  527 ], // Infested Stone Bricks
+    "$item_07": [ 0,  528 ], // Infested Mossy Stone Bricks
+    "$item_08": [ 0,  529 ], // Infested Cracked Stone Bricks
+    "$item_09": [ 0,  530 ], // Infested Chiseled Stone Bricks
+    "$item_10": [ 0,  333 ], // Mycelium
 
-    "$item_11": [ 0, 1268 ], // 
-    "$item_12": [ 0, 1268 ], // 
-    "$item_13": [ 0, 1268 ], // 
-    "$item_14": [ 0, 1268 ], // 
-    "$item_15": [ 0, 1268 ], // 
-    "$item_16": [ 0, 1268 ], // 
-    "$item_17": [ 0, 1268 ], // 
-    "$item_18": [ 0, 1268 ], // 
-    "$item_19": [ 0, 1268 ], // 
-    "$item_20": [ 0, 1268 ], // 
+    "$item_11": [ 0,  328 ], // Coarse Dirt
+    "$item_12": [ 0,  332 ], // Podzol
+    "$item_13": [ 0,  215 ], // Nether Bricks
+    "$item_14": [ 0,  174 ], // Cracked Nether Bricks
+    "$item_15": [ 0,  173 ], // Chiseled Nether Bricks
+    "$item_16": [ 0,  216 ], // Red Nether Bricks
+    "$item_17": [ 0,  603 ], // End Stone
+    "$item_18": [ 0,  180 ], // End Stone Bricks
+    "$item_19": [ 0,  207 ], // Smooth Quartz Block
+    "$item_20": [ 0,  205 ], // Pillar Quartz Block
 
-    "$item_21": [ 0, 1268 ], // 
-    "$item_22": [ 0, 1268 ], // 
-    "$item_23": [ 0, 1268 ], // 
-    "$item_24": [ 0, 1268 ], // 
-    "$item_25": [ 0, 1268 ], // 
-    "$item_26": [ 0, 1268 ], // 
-    "$item_27": [ 0, 1268 ], // 
-    "$item_28": [ 0, 1268 ], // 
-    "$item_29": [ 0, 1268 ], // 
-    "$item_30": [ 0, 1268 ], // 
+    "$item_21": [ 0,  175 ], // Quartz Bricks
+    "$item_22": [ 0,  206 ], // Chiseled Quartz Block
+    "$item_23": [ 0,  317 ], // Purpur Block
+    "$item_24": [ 0,  318 ], // Purpur Pillar
+    "$item_25": [ 0,   87 ], // Oak Trapdoor
+    "$item_26": [ 0,   88 ], // Spruce Trapdoor
+    "$item_27": [ 0,   89 ], // Birch Trapdoor
+    "$item_28": [ 0,   90 ], // Jungle Trapdoor
+    "$item_29": [ 0,   91 ], // Acacia Trapdoor
+    "$item_30": [ 0,   92 ], // Dark Oak Trapdoor
 
-    "$item_31": [ 0, 1268 ], // 
-    "$item_32": [ 0, 1268 ], // 
-    "$item_33": [ 0, 1268 ], // 
-    "$item_34": [ 0, 1268 ], // 
-    "$item_35": [ 0, 1268 ], // 
-    "$item_36": [ 0, 1268 ], // 
-    "$item_37": [ 0, 1268 ], // 
-    "$item_38": [ 0, 1268 ], // 
-    "$item_39": [ 0, 1268 ], // 
-    "$item_40": [ 0, 1268 ], // 
+    "$item_31": [ 0,   94 ], // Crimson Trapdoor
+    "$item_32": [ 0,   95 ], // Warped Trapdoor
+    "$item_33": [ 0,   93 ], // Iron Trapdoor
+    "$item_34": [ 0,   34 ], // Oak Fence Gate
+    "$item_35": [ 0,   35 ], // Spruce Fence Gate
+    "$item_36": [ 0,   36 ], // Birch Fence Gate
+    "$item_37": [ 0,   37 ], // Jungle Fence Gate
+    "$item_38": [ 0,   38 ], // Acacia Fence Gate
+    "$item_39": [ 0,   39 ], // Dark Oak Fence Gate
+    "$item_40": [ 0,   40 ], // Crimson Fence Gate
     
-    "$item_41": [ 0, 1268 ], // 
-    "$item_42": [ 0, 1268 ], // 
-    "$item_43": [ 0, 1268 ], // 
-    "$item_44": [ 0, 1268 ], // 
-    "$item_45": [ 0, 1268 ], // 
-    "$item_46": [ 0, 1268 ], // 
-    "$item_47": [ 0, 1268 ], // 
-    "$item_48": [ 0, 1268 ], // 
-    "$item_49": [ 0, 1268 ], // 
-    "$item_50": [ 0, 1268 ]  // 
+    "$item_41": [ 0,   41 ], // Warped Fence Gate
+    "$item_42": [ 0,   78 ], // Oak Door
+    "$item_43": [ 0,   79 ], // Spruce Door
+    "$item_44": [ 0,   80 ], // Birch Door
+    "$item_45": [ 0,   81 ], // Jungle Door
+    "$item_46": [ 0,   82 ], // Acacia Door
+    "$item_47": [ 0,   83 ], // Dark Oak Door
+    "$item_48": [ 0,   85 ], // Crimson Door
+    "$item_49": [ 0,   86 ], // Warped Door
+    "$item_50": [ 0,   84 ]  // Iron Door
   },
 
   "building_blocks_items_page_4@creative_items_common_4jd.grid_items_panel": {
-    "$item_01": [ 0, 1268 ], // 
-    "$item_02": [ 0, 1268 ], // 
-    "$item_03": [ 0, 1268 ], // 
-    "$item_04": [ 0, 1268 ], // 
-    "$item_05": [ 0, 1268 ], // 
-    "$item_06": [ 0, 1268 ], // 
-    "$item_07": [ 0, 1268 ], // 
-    "$item_08": [ 0, 1268 ], // 
-    "$item_09": [ 0, 1268 ], // 
-    "$item_10": [ 0, 1268 ], // 
+    "$item_01": [ 0,  134 ], // Stone Slab
+    "$item_02": [ 0,  133 ], // Smooth Stone Slab
+    "$item_03": [ 0,  145 ], // Sandstone Slab
+    "$item_04": [ 0,  146 ], // Cut Sandstone Slab
+    "$item_05": [ 0,  147 ], // Smooth Sandstone Slab
+    "$item_06": [ 0,  148 ], // Red Sandstone Slab
+    "$item_07": [ 0,  149 ], // Red Cut Sandstone Slab
+    "$item_08": [ 0,  150 ], // Red Smooth Sandstone Slab
+    "$item_09": [ 0,  137 ], // Oak Slab
+    "$item_10": [ 0,  138 ], // Spruce Slab
 
-    "$item_11": [ 0, 1268 ], // 
-    "$item_12": [ 0, 1268 ], // 
-    "$item_13": [ 0, 1268 ], // 
-    "$item_14": [ 0, 1268 ], // 
-    "$item_15": [ 0, 1268 ], // 
-    "$item_16": [ 0, 1268 ], // 
-    "$item_17": [ 0, 1268 ], // 
-    "$item_18": [ 0, 1268 ], // 
-    "$item_19": [ 0, 1268 ], // 
-    "$item_20": [ 0, 1268 ], // 
+    "$item_11": [ 0,  139 ], // Birch Slab
+    "$item_12": [ 0,  140 ], // Jungle Slab
+    "$item_13": [ 0,  141 ], // Acacia Slab
+    "$item_14": [ 0,  142 ], // Dark Oak Slab
+    "$item_15": [ 0,  167 ], // Crimson Slab
+    "$item_16": [ 0,  168 ], // Warped Slab
+    "$item_17": [ 0,  135 ], // Cobblestone Slab
+    "$item_18": [ 0,  136 ], // Mossy Cobblestone Slab
+    "$item_19": [ 0,  157 ], // Brick Slab
+    "$item_20": [ 0,  143 ], // Stone Brick Slab
 
-    "$item_21": [ 0, 1268 ], // 
-    "$item_22": [ 0, 1268 ], // 
-    "$item_23": [ 0, 1268 ], // 
-    "$item_24": [ 0, 1268 ], // 
-    "$item_25": [ 0, 1268 ], // 
-    "$item_26": [ 0, 1268 ], // 
-    "$item_27": [ 0, 1268 ], // 
-    "$item_28": [ 0, 1268 ], // 
-    "$item_29": [ 0, 1268 ], // 
-    "$item_30": [ 0, 1268 ], // 
+    "$item_21": [ 0,  144 ], // Mossy Stone Brick Slab
+    "$item_22": [ 0,  158 ], // Nether Brick Slab
+    "$item_23": [ 0,  159 ], // Red Nether Brick Slab
+    "$item_24": [ 0,  161 ], // Quartz Slab
+    "$item_25": [ 0,  162 ], // Smooth Quartz Slab
+    "$item_26": [ 0,  163 ], // Purpur Slab
+    "$item_27": [ 0,  160 ], // End Stone Brick Slab
+    "$item_28": [ 0,  164 ], // Prismarine Slab
+    "$item_29": [ 0,  166 ], // Prismarine Brick Slab
+    "$item_30": [ 0,  165 ], // Dark Prismarine Slab
 
-    "$item_31": [ 0, 1268 ], // 
-    "$item_32": [ 0, 1268 ], // 
-    "$item_33": [ 0, 1268 ], // 
-    "$item_34": [ 0, 1268 ], // 
-    "$item_35": [ 0, 1268 ], // 
-    "$item_36": [ 0, 1268 ], // 
-    "$item_37": [ 0, 1268 ], // 
-    "$item_38": [ 0, 1268 ], // 
-    "$item_39": [ 0, 1268 ], // 
-    "$item_40": [ 0, 1268 ], // 
+    "$item_31": [ 0,  155 ], // Andesite Slab
+    "$item_32": [ 0,  156 ], // Polished Andesite Slab
+    "$item_33": [ 0,  153 ], // Diorite Slab
+    "$item_34": [ 0,  154 ], // Polished Diorite Slab
+    "$item_35": [ 0,  151 ], // Granite Slab
+    "$item_36": [ 0,  152 ], // Polished Granite Slab
+    "$item_37": [ 0,  169 ], // Blackstone Slab
+    "$item_38": [ 0,  170 ], // Polished Blackstone Slab
+    "$item_39": [ 0,  171 ], // Polished Blackstone Brick Slab
+    "$item_40": [ 0,   42 ], // Stone Stairs
     
-    "$item_41": [ 0, 1268 ], // 
-    "$item_42": [ 0, 1268 ], // 
-    "$item_43": [ 0, 1268 ], // 
-    "$item_44": [ 0, 1268 ], // 
-    "$item_45": [ 0, 1268 ], // 
-    "$item_46": [ 0, 1268 ], // 
-    "$item_47": [ 0, 1268 ], // 
-    "$item_48": [ 0, 1268 ], // 
-    "$item_49": [ 0, 1268 ], // 
-    "$item_50": [ 0, 1268 ]  // 
+    "$item_41": [ 0,   45 ], // Oak Stairs
+    "$item_42": [ 0,   46 ], // Spruce Stairs
+    "$item_43": [ 0,   47 ], // Birch Stairs
+    "$item_44": [ 0,   48 ], // Jungle Stairs
+    "$item_45": [ 0,   49 ], // Acacia Stairs
+    "$item_46": [ 0,   50 ], // Dark Oak Stairs
+    "$item_47": [ 0,   73 ], // Crimson Stairs
+    "$item_48": [ 0,   74 ], // Warped Stairs
+    "$item_49": [ 0,   43 ], // Cobblestone stairs
+    "$item_50": [ 0,   44 ]  // Mossy Cobblestone Stairs
   },
 
   "building_blocks_items_page_5@creative_items_common_4jd.grid_items_panel": {
-    "$item_01": [ 0, 1268 ], // 
-    "$item_02": [ 0, 1268 ], // 
-    "$item_03": [ 0, 1268 ], // 
-    "$item_04": [ 0, 1268 ], // 
-    "$item_05": [ 0, 1268 ], // 
-    "$item_06": [ 0, 1268 ], // 
-    "$item_07": [ 0, 1268 ], // 
-    "$item_08": [ 0, 1268 ], // 
-    "$item_09": [ 0, 1268 ], // 
-    "$item_10": [ 0, 1268 ], // 
+    "$item_01": [ 0,   63 ], // Brick Stairs
+    "$item_02": [ 0,   51 ], // Stone Brick Stair
+    "$item_03": [ 0,   52 ], // Mossy Stone Brick Stair
+    "$item_04": [ 0,   64 ], // Nether Brick Stairs
+    "$item_05": [ 0,   65 ], // Red Nether Brick Stairs
+    "$item_06": [ 0,   53 ], // Sandstone Stairs
+    "$item_07": [ 0,   54 ], // Smooth Sandstone Stairs
+    "$item_08": [ 0,   55 ], // Red Sandstone Stairs
+    "$item_09": [ 0,   56 ], // Red Smooth Sandstone Stairs
+    "$item_10": [ 0,   67 ], // Quartz Stairs
 
-    "$item_11": [ 0, 1268 ], // 
-    "$item_12": [ 0, 1268 ], // 
-    "$item_13": [ 0, 1268 ], // 
-    "$item_14": [ 0, 1268 ], // 
-    "$item_15": [ 0, 1268 ], // 
-    "$item_16": [ 0, 1268 ], // 
-    "$item_17": [ 0, 1268 ], // 
-    "$item_18": [ 0, 1268 ], // 
-    "$item_19": [ 0, 1268 ], // 
-    "$item_20": [ 0, 1268 ], // 
+    "$item_11": [ 0,   68 ], // Smootn Quartz Stairs
+    "$item_12": [ 0,   69 ], // Purpur Stairs
+    "$item_13": [ 0,   66 ], // End Stone Brick Stairs
+    "$item_14": [ 0,   70 ], // Prismarine Stairs
+    "$item_15": [ 0,   72 ], // Prismarine Brick Stairs
+    "$item_16": [ 0,   71 ], // Dark Prismarine Stairs
+    "$item_17": [ 0,   57 ], // Andesite Stairs
+    "$item_18": [ 0,   58 ], // Polished Andesite Stairs
+    "$item_19": [ 0,   59 ], // Diorite Stairs
+    "$item_20": [ 0,   60 ], // Polished Diorite Stairs
 
-    "$item_21": [ 0, 1268 ], // 
-    "$item_22": [ 0, 1268 ], // 
-    "$item_23": [ 0, 1268 ], // 
-    "$item_24": [ 0, 1268 ], // 
-    "$item_25": [ 0, 1268 ], // 
-    "$item_26": [ 0, 1268 ], // 
-    "$item_27": [ 0, 1268 ], // 
-    "$item_28": [ 0, 1268 ], // 
-    "$item_29": [ 0, 1268 ], // 
-    "$item_30": [ 0, 1268 ], // 
+    "$item_21": [ 0,   61 ], // Granite Stairs
+    "$item_22": [ 0,   62 ], // Polished Granite Stairs
+    "$item_23": [ 0,   75 ], // Blackstone Stairs
+    "$item_24": [ 0,   76 ], // Polished Blackstone Stairs
+    "$item_25": [ 0,   77 ], // Polished Blackstone Brick Stairs
+    "$item_26": [ 0,  284 ], // Terracotta
+    "$item_27": [ 0,  288 ], // Black Terracotta
+    "$item_28": [ 0,  297 ], // Blue Terracotta
+    "$item_29": [ 0,  296 ], // Light Blue Terracotta
+    "$item_30": [ 0,  295 ], // Cyan Terracotta
 
-    "$item_31": [ 0, 1268 ], // 
-    "$item_32": [ 0, 1268 ], // 
-    "$item_33": [ 0, 1268 ], // 
-    "$item_34": [ 0, 1268 ], // 
-    "$item_35": [ 0, 1268 ], // 
-    "$item_36": [ 0, 1268 ], // 
-    "$item_37": [ 0, 1268 ], // 
-    "$item_38": [ 0, 1268 ], // 
-    "$item_39": [ 0, 1268 ], // 
-    "$item_40": [ 0, 1268 ], // 
+    "$item_31": [ 0,  294 ], // Green Terracotta
+    "$item_32": [ 0,  293 ], // Lime Terracotta
+    "$item_33": [ 0,  300 ], // Pink Terracotta
+    "$item_34": [ 0,  299 ], // Magenta Terracotta
+    "$item_35": [ 0,  298 ], // Purple Terracotta
+    "$item_36": [ 0,  290 ], // Red Terracotta
+    "$item_37": [ 0,  289 ], // Brown Terracotta
+    "$item_38": [ 0,  291 ], // Orange Terracotta
+    "$item_39": [ 0,  292 ], // Yellow Terracotta
+    "$item_40": [ 0,  285 ], // White Terracotta
     
-    "$item_41": [ 0, 1268 ], // 
-    "$item_42": [ 0, 1268 ], // 
-    "$item_43": [ 0, 1268 ], // 
-    "$item_44": [ 0, 1268 ], // 
-    "$item_45": [ 0, 1268 ], // 
-    "$item_46": [ 0, 1268 ], // 
-    "$item_47": [ 0, 1268 ], // 
-    "$item_48": [ 0, 1268 ], // 
-    "$item_49": [ 0, 1268 ], // 
-    "$item_50": [ 0, 1268 ]  // 
+    "$item_41": [ 0,  286 ], // Light Gray Terracotta
+    "$item_42": [ 0,  287 ], // Gray Terracotta
+    "$item_43": [ 0,  349 ], // Blackstone
+    "$item_44": [ 0,  184 ], // Gilded Blackstone
+    "$item_45": [ 0,  353 ], // Polished Blackstone
+    "$item_46": [ 0,  185 ], // Chiseled Polished Blackstone
+    "$item_47": [ 0,  182 ], // Polished Blackstone Bricks
+    "$item_48": [ 0,  183 ], // Cracked Polished Blackstone Bricks
+    "$item_49": [ 0,  324 ], // Basalt
+    "$item_50": [ 0,  325 ]  // Polished Basalt
   }
 }
