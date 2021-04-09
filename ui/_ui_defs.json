@@ -5,6 +5,7 @@
     "ui4jd/common_sections/ui_4jd_textures.ui4jd",
     "ui4jd/common_sections/ui_template_buttons.ui4jd",
     "ui4jd/common_sections/ui_template_toggles.ui4jd",
+    "ui4jd/common_sections/ui_template_tooltip.ui4jd",
     ////*/ Inventory Screens /*////
     "ui4jd/inventory_screens/anvil_screen.ui4jd",
     "ui4jd/inventory_screens/beacon_screen.ui4jd",

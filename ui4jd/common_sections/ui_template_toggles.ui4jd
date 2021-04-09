@@ -21,6 +21,11 @@
     "$custom_mapping_type|default": "global",
     "$custom_scope|default": "",
 
+    "$unchecked_control": "common.empty_panel",
+    "$unchecked_hover_control": "common.empty_panel",
+    "$checked_control": "common.empty_panel",
+    "$checked_hover_control": "common.empty_panel",
+
     "$unchecked_locked_control": "common.empty_panel",
     "$unchecked_locked_hover_control": "common.empty_panel",
     "$checked_locked_control": "common.empty_panel",

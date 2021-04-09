@@ -15,7 +15,7 @@
 
     "$item_11": [ 0,  420 ], // Carved Pumpkin
     "$item_12": [ 0,  421 ], // Jack o' Lantern
-    "$item_13": [ 0,  494 ], // Bamboo
+    "$item_13": [ 0,  494 ], /* Bamboo */ "$size_24_item_13": true,
     "$item_14": [ 0,  395 ], // Oak Sapling
     "$item_15": [ 0,  396 ], // Spruce Sapling
     "$item_16": [ 0,  397 ], // Birch Sapling

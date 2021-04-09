@@ -70,10 +70,8 @@
     "$item_09": [ 0,  473 ], // Brown Dye
     "$item_10": [ 0,  469 ], // White Dye
 
-    
-    "$item_12": [ 0,  494 ], /* Bamboo */ "$size_24_item_12": true,
-    "$item_13": [ 0,  422 ], // Honeycomb
-    "$item_14": [ 0, 1004 ], // Netherite Scrap
-    "$item_15": [ 0, 1005 ]  // Netherite Ingot
+    "$item_11": [ 0,  422 ], // Honeycomb
+    "$item_12": [ 0, 1004 ], // Netherite Scrap
+    "$item_13": [ 0, 1005 ]  // Netherite Ingot
   }
 }

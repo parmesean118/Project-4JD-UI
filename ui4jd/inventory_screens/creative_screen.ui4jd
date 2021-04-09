@@ -111,14 +111,12 @@
     ]
   },
 
-  "creatvie_panel": {
+  "creative_panel": {
     "type": "panel",
     "size": [ 321.5, 245 ],
     "controls": [
       { "creative_tabs_panel@creative_tabs_4jd.creative_tabs_panel": { } },
-      { "creative_panel_content@creative_4jd.creative_panel_content": { } },
-      { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
-      { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+      { "creative_panel_content@creative_4jd.creative_panel_content": { } }
     ]
   }
 }

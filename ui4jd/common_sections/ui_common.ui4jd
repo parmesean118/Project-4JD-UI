@@ -1,6 +1,13 @@
 {
   "namespace": "common_4jd",
   
+  "gamma_fix": {
+    "type": "image",
+    "texture": "textures/ui4jd/global/gamma_fix",
+    "size": [ "200%", "200%" ],
+    "layer": 500
+  },
+  
   "global_label": {
     "type": "label",
     "font_type": "normal" //"DFGMaruGothic" If you are using JPN Language.
@@ -23,39 +30,6 @@
     ]
   },
 
-  /* Gamepad Helpers */
-
-  "container_gamepad_helpers@common.gamepad_helpers": {
-    "$helper_a_control|default": "common.gamepad_helper_a",
-    "$helper_b_control|default": "common.gamepad_helper_b",
-    "$helper_x_control|default": "common.gamepad_helper_x",
-    "$helper_y_control|default": "common.gamepad_helper_y",
-    "controls": [
-      { "gamepad_helper_a@$helper_a_control": {} },
-      {
-        "control_0": {
-          "type": "panel",
-          "size": [ 10, 0 ]
-        }
-      },
-      { "gamepad_helper_b@$helper_b_control": {} },
-      {
-        "control_1": {
-          "type": "panel",
-          "size": [ 10, 0 ]
-        }
-      },
-      { "gamepad_helper_x@$helper_x_control": {} },
-      {
-        "control_2": {
-          "type": "panel",
-          "size": [ 10, 0 ]
-        }
-      },
-      { "gamepad_helper_y@$helper_y_control": {} }
-    ]
-  },
-
   /* Center Screen Panel */
 
   "center_screen": {
@@ -68,7 +42,7 @@
     "type": "panel",
     "size": [ "100%", "100%" ],
     "controls": [
-      { "container_gamepad_helpers@common_4jd.container_gamepad_helpers": { } }
+      { "container_gamepad_helpers@common_tooltip_4jd.container_gamepad_helpers": { } }
     ]
   },
 
@@ -296,6 +270,11 @@
     "offset": [ 2.5, 2 ]
   },
 
+  "stack_count_label_29@common.stack_count_label": {
+    "font_scale_factor": 1.8125,
+    "offset": [ 2, 4 ]
+  },
+
   "stack_count_label_32@common.stack_count_label": {
     "font_scale_factor": 2,
     "offset": [ 0.5, 3 ]
@@ -308,6 +287,7 @@
     "anchor_to": "bottom_middle",
     "offset": [ 0, -10 ],
     "$with_label|default": true,
+    "$label_offset": [ 1, -91 ],
     "$highlight_control": "common_4jd.highlight_slot_panel",
     "$container_item_size": [ 21, 21 ],
     "$cell_image_size": [ 21, 21 ],
@@ -323,7 +303,7 @@
           "ignored": "(not $with_label)",
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
-          "offset": [ 1, -91 ],
+          "offset": "$label_offset",
           "layer": 2,
           "color": "$title_text_color",
           "text": "container.inventory"

@@ -14,13 +14,13 @@ For mobile (Mini version) it will be available for late 2021.
 
 #### Current Features ####
 
--Anvil screen
--Beacon screen
--3x3 Crafting screen (10%)
--Start screen
--Pause screen
--Classic Inventory and Crafting screen (Just like JE UI).
--Creative Screen (10%)
+- Anvil screen
+- Beacon screen
+- 3x3 Crafting screen (10%, still in progress)
+- Start screen (still in progress)
+- Pause screen (still in progress)
+- Classic Inventory and Crafting screen (Just like JE UI).
+- Creative Screen (100%)
 
 #### License ####
 
@@ -43,4 +43,4 @@ You can't:
 
 - Main project by: @CrisXolt
 - Panorama BG by: @agentms_ (AgentMindStorm)
-- Custom item durability bar explanation by @LukasPAH
+- Custom item durability bar explanation and gamma color concept by @LukasPAH
